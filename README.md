@@ -12,17 +12,11 @@
 
 ### 🚀 What I'm up to
 
-🛡️ Exploring **cybersecurity, pentesting & security tooling**  
+🛡️ Exploring **cybersecurity & security tooling**  
 🤖 Building with **AI, agents & automation**  
 ⚽ Developing **FPL-AI**  
 🧪 Always experimenting with something new  
 🔒 Some of my work lives behind closed doors
-
-### 🧰 Toolbox
-
-`Python` · `Next.js` · `FastAPI` · `Docker`  
-`Kali Linux` · `Burp Suite` · `Nmap` · `Wireshark`  
-`ELK` · `Splunk` · `Supabase` · `Vercel`
 
 ---
 
