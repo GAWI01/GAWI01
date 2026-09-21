@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👾 Hi, I'm Gabriel
+# Hi, I'm Gabriel
 
 ### 🛡️ Cybersecurity · 🤖 AI · 💻 Software
 
