@@ -1,16 +1,17 @@
-# Hi, I'm Gabriel
+```console
+gawi@github:~$ whoami
+Gabriel — I like building things and figuring out how they break.
 
-Cybersecurity · AI · Software
+gawi@github:~$ cat interests.txt
+security
+ai / agents
+automation
+building useful stuff
 
-I like building things, breaking things, and figuring out how they work.
+gawi@github:~$ ls ./projects
+fpl-ai/
+experiments/
+private/
 
-## Currently
-
-- Exploring cybersecurity and security tooling
-- Building with AI and automation
-- Developing [FPL-AI](https://github.com/GAWI01/FPL-AI)
-- Working on a few private projects
-
-## Get in touch
-
-[LinkedIn](https://www.linkedin.com/in/gabriel-witzøe-51384a275)
+gawi@github:~$ uptime
+still learning...
