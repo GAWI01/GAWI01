@@ -1,16 +1,35 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**GAWI01/GAWI01** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 👾 Hi, I'm Gabriel
 
-Here are some ideas to get you started:
+### 🛡️ Cybersecurity · 🤖 AI · 💻 Software
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+*I build things, break things, and occasionally figure out why they broke.*
+
+</div>
+
+---
+
+### 🚀 What I'm up to
+
+🛡️ Exploring **cybersecurity, pentesting & security tooling**  
+🤖 Building with **AI, agents & automation**  
+⚽ Developing **FPL-AI**  
+🧪 Always experimenting with something new  
+🔒 Some of my work lives behind closed doors
+
+### 🧰 Toolbox
+
+`Python` · `Next.js` · `FastAPI` · `Docker`  
+`Kali Linux` · `Burp Suite` · `Nmap` · `Wireshark`  
+`ELK` · `Splunk` · `Supabase` · `Vercel`
+
+---
+
+<div align="center">
+
+### ⚡ Build → Break → Learn → Repeat
+
+[LinkedIn](https://www.linkedin.com/in/gabriel-witzøe-51384a275) · [FPL-AI](https://github.com/GAWI01/FPL-AI)
+
+</div>
