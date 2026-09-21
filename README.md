@@ -1,73 +1,75 @@
-<h1 align="center">GAWI01</h1>
+<div align="center">
 
-<p align="center">
-  <code>security</code> · <code>ai</code> · <code>software</code> · <code>automation</code>
-</p>
+# GAWI01
 
-```text
+`security` · `ai` · `software`
+
+</div>
+
+```console
 ┌──(gawi@github)-[~]
 └─$ whoami
 
-  Gabriel Witzøe
-  building things // breaking things // learning things
+Gabriel Witzøe
+
+building.
+breaking.
+learning.
 
 
 ┌──(gawi@github)-[~/interests]
 └─$ cat interests.txt
 
-  security          ████████████████████
-  ai / agents       ██████████████████░░
-  automation        █████████████████░░░
-  software          ███████████████░░░░░
+security
+ai / agents
+automation
+software
 
 
 ┌──(gawi@github)-[~/projects]
-└─$ ls -la
+└─$ ls
 
-  drwxr-xr-x   fpl-ai/
-  drwxr-xr-x   experiments/
-  drwx------   private/
+fpl-ai/
+experiments/
+[REDACTED]/
 
 
 ┌──(gawi@github)-[~]
-└─$ systemctl status curiosity
+└─$ status
 
-  ● curiosity.service
-     Loaded: loaded
-     Active: active (running)
-     Uptime: still going
+[+] building things
+[+] breaking things
+[+] experimenting
+[-] documentation
 ```
 
-## /projects
+## `./fpl-ai`
 
-### [FPL-AI](https://github.com/GAWI01/FPL-AI)
+> Fantasy Premier League prediction and optimization.
 
-Fantasy Premier League prediction and optimization system.
+```console
+$ ./status
 
-```text
-STATUS    ACTIVE
-STACK     Python / FastAPI / AI
-ACCESS    PUBLIC
+state    active
+access   public
+stack    python / fastapi / ai
 ```
 
-### experiments
+## `./experiments`
 
-```text
-security tooling
+```console
+security
 ai agents
 automation
-whatever seemed interesting that week
+random ideas
 ```
 
 ---
 
-```text
-gawi@github:~$ echo $CURRENT_STATUS
-probably building something
-```
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/gabriel-witzøe-51384a275">linkedin</a>
-  ·
-  <a href="https://github.com/GAWI01">github</a>
-</p>
+`build // break // learn // repeat`
+
+[linkedin](https://www.linkedin.com/in/gabriel-witzøe-51384a275) · [fpl-ai](https://github.com/GAWI01/FPL-AI)
+
+</div>
