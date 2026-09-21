@@ -17,8 +17,8 @@ breaking.
 learning.
 
 
-┌──(gawi@github)-[~/interests]
-└─$ cat interests.txt
+┌──(gawi@github)-[~]
+└─$ interests
 
 security
 ai / agents
@@ -37,19 +37,17 @@ experiments/
 ┌──(gawi@github)-[~]
 └─$ status
 
-[+] building things
-[+] breaking things
+[+] building
 [+] experimenting
+[+] learning
 [-] documentation
 ```
 
 ## `./fpl-ai`
 
-> Fantasy Premier League prediction and optimization.
+Fantasy Premier League prediction and optimization.
 
 ```console
-$ ./status
-
 state    active
 access   public
 stack    python / fastapi / ai
