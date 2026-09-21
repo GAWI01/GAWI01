@@ -1,29 +1,16 @@
-<div align="center">
-
 # Hi, I'm Gabriel
 
-### 🛡️ Cybersecurity · 🤖 AI · 💻 Software
+Cybersecurity · AI · Software
 
-*I build things, break things, and occasionally figure out why they broke.*
+I like building things, breaking things, and figuring out how they work.
 
-</div>
+### What I'm working on
 
----
+Exploring cybersecurity and security tooling
+Building with AI and automation
+Developing [FPL-AI](https://github.com/GAWI01/FPL-AI)
+Working on a few projects that aren't public
 
-### 🚀 What I'm up to
 
-🛡️ Exploring **cybersecurity & security tooling**  
-🤖 Building with **AI, agents & automation**  
-⚽ Developing **FPL-AI**  
-🧪 Always experimenting with something new  
-🔒 Some of my work lives behind closed doors
 
----
-
-<div align="center">
-
-### ⚡ Build → Break → Learn → Repeat
-
-[LinkedIn](https://www.linkedin.com/in/gabriel-witzøe-51384a275) · [FPL-AI](https://github.com/GAWI01/FPL-AI)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/gabriel-witzøe-51384a275)
