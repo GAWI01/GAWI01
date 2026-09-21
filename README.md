@@ -1,37 +1,107 @@
-# Hey, I'm Gabriel 👋
+<div align="center">
 
-**GAWI01** · Solo builder  
-Cybersecurity • AI • Building things that solve real problems.
+# GAWI01
 
-🟢 Open to collaboration
+### SECURITY // AI // SOFTWARE
 
----
+`BUILD` `BREAK` `AUTOMATE` `REPEAT`
 
-### Currently cooking
-⚽ **FPL AI** — Statistikk- og datadrevet laghjelp for Fantasy Premier League.  
-Ren data. Ingen magefølelse.
-
-🔒 Cybersecurity & AI sideprosjekter (kommer snart)
+</div>
 
 ---
 
-### GitHub Stats
+```console
+┌──(gawi@github)-[~]
+└─$ ./boot
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GAWI01&show_icons=true&theme=tokyonight&hide_border=true)
+[ OK ] security
+[ OK ] ai
+[ OK ] automation
+[ OK ] questionable ideas
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GAWI01&layout=compact&theme=tokyonight&hide_border=true)
+SYSTEM ONLINE
+```
+
+<table>
+<tr>
+<td width="50%">
+
+### SYSTEM
+
+```text
+USER     Gabriel Witzøe
+FOCUS    Security / AI
+STATUS   Building
+LANG     Python
+MODE     Vibecoding
+```
+
+</td>
+<td width="50%">
+
+### CURRENT
+
+```text
+FPL-AI        ACTIVE
+AI AGENTS     ACTIVE
+SECURITY      ACTIVE
+EXPERIMENTS   ALWAYS
+DOCS          ...later
+```
+
+</td>
+</tr>
+</table>
+
+## PROJECT_01 // FPL-AI
+
+> Fantasy Premier League prediction and optimization system.
+
+[![FPL-AI](https://github-readme-stats.vercel.app/api/pin/?username=GAWI01&repo=FPL-AI&theme=github_dark&hide_border=true)](https://github.com/GAWI01/FPL-AI)
+
+```text
+ACCESS    PUBLIC
+STATUS    ACTIVE
+CORE      PYTHON
+```
+
+## ACTIVITY
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=GAWI01&show_icons=true&theme=github_dark&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=GAWI01&layout=compact&theme=github_dark&hide_border=true)
+
+</div>
+
+## ~/projects
+
+```text
+fpl-ai/
+experiments/
+[REDACTED]/
+```
+
+## STATUS.LOG
+
+```diff
++ building
++ breaking
++ automating
++ learning
++ shipping
+- writing documentation
+```
 
 ---
 
-### Tech stack
-`Python` `TypeScript` `Next.js` `Pandas` `Scikit-learn` `Linux` `Docker`
+<div align="center">
 
----
+### SYSTEM ONLINE
 
-### Quick links
-- ⚽ [FPL AI](https://github.com/GAWI01/fpl-ai) *(kommer)*
-- 💼 [LinkedIn](https://linkedin.com/in/gabriel-witzøe-51384a275)
+`build // break // learn // repeat`
 
----
+[LINKEDIN](https://www.linkedin.com/in/gabriel-witzøe-51384a275) // [FPL-AI](https://github.com/GAWI01/FPL-AI)
 
-*"Talk is cheap. Show me the data."
+</div>
