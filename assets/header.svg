@@ -1,0 +1,104 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".5" stop-color="#07110d"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#163b2b" stroke-width="1" opacity=".32"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="term"><rect x="54" y="46" width="1092" height="268" rx="14"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .green { fill:#55f991; }
+    .muted { fill:#8b949e; }
+    .white { fill:#f0f6fc; }
+
+    #cursor { animation: blink .8s steps(1) infinite; }
+    @keyframes blink { 50% { opacity:0; } }
+
+    #scan { animation: scan 4.5s linear infinite; }
+    @keyframes scan {
+      0% { transform:translateY(-30px); opacity:0; }
+      12% { opacity:.45; }
+      88% { opacity:.45; }
+      100% { transform:translateY(390px); opacity:0; }
+    }
+
+    #boot1 { animation: boot1 8s infinite; }
+    #boot2 { animation: boot2 8s infinite; }
+    #boot3 { animation: boot3 8s infinite; }
+    @keyframes boot1 { 0%,4%{opacity:0} 8%,100%{opacity:1} }
+    @keyframes boot2 { 0%,12%{opacity:0} 17%,100%{opacity:1} }
+    @keyframes boot3 { 0%,21%{opacity:0} 26%,100%{opacity:1} }
+
+    #brand { animation: pulse 3.2s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:.86} 50%{opacity:1} }
+
+    #glitchA { animation: glitchA 5s infinite; }
+    #glitchB { animation: glitchB 5s infinite; }
+    @keyframes glitchA {
+      0%,91%,94%,100% { transform:translate(0,0); opacity:0; }
+      92% { transform:translate(-5px,0); opacity:.55; }
+      93% { transform:translate(4px,0); opacity:.3; }
+    }
+    @keyframes glitchB {
+      0%,95%,98%,100% { transform:translate(0,0); opacity:0; }
+      96% { transform:translate(6px,-2px); opacity:.45; }
+      97% { transform:translate(-3px,2px); opacity:.25; }
+    }
+
+    #dot1 { animation: dot 1.5s infinite .0s; }
+    #dot2 { animation: dot 1.5s infinite .3s; }
+    #dot3 { animation: dot 1.5s infinite .6s; }
+    @keyframes dot { 0%,100%{opacity:.2} 50%{opacity:1} }
+  </style>
+
+  <rect width="1200" height="360" rx="18" fill="url(#fade)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+
+  <rect x="54" y="46" width="1092" height="268" rx="14" fill="#080c0a" stroke="#238636" stroke-width="1.5"/>
+  <rect x="54" y="46" width="1092" height="38" rx="14" fill="#111814"/>
+  <path d="M54 70V60Q54 46 68 46H1132Q1146 46 1146 60V84H54Z" fill="#111814"/>
+
+  <circle cx="78" cy="65" r="5" fill="#ff5f56"/>
+  <circle cx="97" cy="65" r="5" fill="#ffbd2e"/>
+  <circle cx="116" cy="65" r="5" fill="#27c93f"/>
+  <text x="600" y="70" text-anchor="middle" class="mono muted" font-size="13">gawi@github: ~/profile</text>
+
+  <g clip-path="url(#term)">
+    <rect id="scan" x="54" y="-20" width="1092" height="22" fill="#55f991" opacity=".16"/>
+  </g>
+
+  <text id="boot1" x="86" y="115" class="mono muted" font-size="15">&gt; INITIALIZING PROFILE...</text>
+  <text id="boot2" x="86" y="143" class="mono muted" font-size="15">&gt; LOADING SECURITY / AI / SOFTWARE...</text>
+  <text id="boot3" x="86" y="171" class="mono green" font-size="15">&gt; SYSTEM ONLINE.</text>
+
+  <text id="brand" x="84" y="235" class="mono green" font-size="68" font-weight="800" letter-spacing="6" filter="url(#glow)">GAWI01</text>
+  <text id="glitchA" x="84" y="235" class="mono" fill="#58a6ff" font-size="68" font-weight="800" letter-spacing="6">GAWI01</text>
+  <text id="glitchB" x="84" y="235" class="mono" fill="#ff4da6" font-size="68" font-weight="800" letter-spacing="6">GAWI01</text>
+
+  <text x="89" y="270" class="mono white" font-size="18" letter-spacing="3">SECURITY  //  AI  //  SOFTWARE</text>
+  <text x="89" y="298" class="mono muted" font-size="14">build // break // learn // repeat</text>
+
+  <g transform="translate(840,112)">
+    <rect width="250" height="135" rx="10" fill="#0d1117" stroke="#244c35"/>
+    <text x="22" y="31" class="mono muted" font-size="12">STATUS</text>
+    <circle cx="25" cy="59" r="6" fill="#55f991" filter="url(#glow)"/>
+    <text x="43" y="64" class="mono green" font-size="15">ONLINE</text>
+    <text x="22" y="94" class="mono muted" font-size="12">CURRENTLY</text>
+    <text x="22" y="119" class="mono white" font-size="13">building something</text>
+    <text id="dot1" x="198" y="119" class="mono green" font-size="16">.</text>
+    <text id="dot2" x="207" y="119" class="mono green" font-size="16">.</text>
+    <text id="dot3" x="216" y="119" class="mono green" font-size="16">.</text>
+  </g>
+
+  <text x="1110" y="296" text-anchor="end" class="mono green" font-size="13">GAWI01 // CONNECTED</text>
+</svg>
