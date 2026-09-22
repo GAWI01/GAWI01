@@ -28,7 +28,7 @@
 <text x="60" y="310" fill="#00f5ff" font-family="monospace" font-size="34" font-weight="700">CYBERSECURITY</text>
 <text x="350" y="310" fill="#ff2bd6" font-family="monospace" font-size="34" font-weight="700">// AI</text>
 <text x="470" y="310" fill="#ffd166" font-family="monospace" font-size="34" font-weight="700">// SOFTWARE</text>
-<text x="60" y="365" fill="#d7d3e8" font-family="monospace" font-size="31">&gt; building things...</text>
+<text x="60" y="365" fill="#d7d3e8" font-family="monospace" font-size="31">&gt; systems online...</text>
 <rect x="430" y="337" width="16" height="31" fill="#00f5ff"><animate attributeName="opacity" values="1;.08;1" dur="1s" repeatCount="indefinite"/></rect>
 
 <!-- ROAD -->
@@ -70,13 +70,13 @@
  <rect x="565" y="60" width="525" height="205" rx="16" fill="#080b18" stroke="#ff2bd6" stroke-width="2" opacity=".96"/>
  <text x="595" y="112" fill="#ff4fd8" font-family="monospace" font-size="41" font-weight="900">[REDACTED]</text>
  <text x="595" y="160" fill="#e8e6f2" font-family="monospace" font-size="27">Private projects + experiments</text>
- <text x="595" y="201" fill="#e8e6f2" font-family="monospace" font-size="27">currently being built.</text>
- <text x="595" y="241" fill="#ffd166" font-family="monospace" font-size="26" font-weight="800">● STATUS / BUILDING</text>
+ <text x="595" y="201" fill="#e8e6f2" font-family="monospace" font-size="27">active development.</text>
+ <text x="595" y="241" fill="#ffd166" font-family="monospace" font-size="26" font-weight="800">● PRIVATE / ACTIVE</text>
 </g>
 
 <!-- FOOTER -->
 <g transform="translate(55 1515)">
- <text fill="#00f5ff" font-family="monospace" font-size="30" font-weight="800">BUILD</text><text x="115" fill="#ff2bd6" font-family="monospace" font-size="30">// BREAK</text><text x="305" fill="#ffd166" font-family="monospace" font-size="30">// LEARN</text><text x="495" fill="#00f5ff" font-family="monospace" font-size="30">// REPEAT</text>
+ <text fill="#00f5ff" font-family="monospace" font-size="30" font-weight="800">CREATE</text><text x="145" fill="#ff2bd6" font-family="monospace" font-size="30">// TEST</text><text x="300" fill="#ffd166" font-family="monospace" font-size="30">// LEARN</text><text x="490" fill="#00f5ff" font-family="monospace" font-size="30">// REPEAT</text>
  <text x="1090" text-anchor="end" fill="#d7d3e8" font-family="monospace" font-size="27">&gt; ship something useful █</text>
 </g>
 
