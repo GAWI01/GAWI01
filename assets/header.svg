@@ -1,36 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410">
 <defs>
- <linearGradient id="bg"><stop stop-color="#07110d"/><stop offset=".5" stop-color="#0d1117"/><stop offset="1" stop-color="#06100c"/></linearGradient>
- <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#17432e" opacity=".3"/></pattern>
- <filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#020806"/><stop offset=".5" stop-color="#07110d"/><stop offset="1" stop-color="#020806"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#0e6b45" stroke-width=".7" opacity=".22"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
 </defs>
-<rect width="1200" height="390" rx="18" fill="url(#bg)"/><rect width="1200" height="390" rx="18" fill="url(#grid)"/>
-<rect x="18" y="18" width="1164" height="354" rx="14" fill="none" stroke="#238636"/>
-<text x="42" y="50" fill="#55f991" font-family="monospace" font-size="14">▣ GAWI01 █</text>
-<text x="1128" y="50" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">BUILD // BREAK // LEARN // REPEAT</text>
-<line x1="40" y1="66" x2="1160" y2="66" stroke="#17432e"/>
+<rect width="1200" height="410" fill="url(#bg)"/>
+<rect width="1200" height="410" fill="url(#grid)">
+  <animate attributeName="x" values="0;28;0" dur="9s" repeatCount="indefinite"/>
+</rect>
+<g opacity=".11">
+  <rect x="75" y="-100" width="2" height="610" fill="#55f991"><animate attributeName="x" values="75;1080;75" dur="13s" repeatCount="indefinite"/></rect>
+  <rect x="980" y="-100" width="1" height="610" fill="#58a6ff"><animate attributeName="x" values="980;180;980" dur="17s" repeatCount="indefinite"/></rect>
+</g>
+
+<rect x="18" y="18" width="1164" height="374" rx="14" fill="#06100c" fill-opacity=".88" stroke="#238636"/>
+<text x="42" y="52" fill="#55f991" font-family="monospace" font-size="14">▣ GAWI01 █</text>
+<text x="1150" y="52" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">BUILD // BREAK // LEARN // REPEAT</text>
+<line x1="40" y1="68" x2="1160" y2="68" stroke="#17432e"/>
 <g font-family="monospace" font-size="14">
- <text x="45" y="101" fill="#55f991" opacity="0">&gt; INITIALIZING PROFILE...<animate attributeName="opacity" values="0;1;1" keyTimes="0;.08;1" dur="7s" repeatCount="indefinite"/></text>
- <text x="45" y="126" fill="#55f991" opacity="0">&gt; LOADING SECURITY MODULES...<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.12;.18;1" dur="7s" repeatCount="indefinite"/></text>
- <text x="45" y="151" fill="#55f991" opacity="0">&gt; CONNECTING TO GITHUB API...<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.22;.28;1" dur="7s" repeatCount="indefinite"/></text>
- <text x="45" y="176" fill="#55f991" opacity="0">&gt; SYSTEM ONLINE.<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.32;.38;1" dur="7s" repeatCount="indefinite"/></text>
+ <text x="45" y="105" fill="#55f991" opacity="0">&gt; INITIALIZING PROFILE...<animate attributeName="opacity" values="0;1;1" keyTimes="0;.08;1" dur="7s" repeatCount="indefinite"/></text>
+ <text x="45" y="130" fill="#55f991" opacity="0">&gt; LOADING SECURITY MODULES...<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.12;.18;1" dur="7s" repeatCount="indefinite"/></text>
+ <text x="45" y="155" fill="#55f991" opacity="0">&gt; CONNECTING TO GITHUB...<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.22;.28;1" dur="7s" repeatCount="indefinite"/></text>
+ <text x="45" y="180" fill="#55f991" opacity="0">&gt; SYSTEM ONLINE.<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.32;.38;1" dur="7s" repeatCount="indefinite"/></text>
 </g>
-<text x="43" y="258" fill="#55f991" font-family="monospace" font-size="82" font-weight="800" letter-spacing="7" filter="url(#g)">GAWI01<animate attributeName="opacity" values=".82;1;.82" dur="3s" repeatCount="indefinite"/></text>
-<text x="43" y="258" fill="#58a6ff" font-family="monospace" font-size="82" font-weight="800" letter-spacing="7" opacity="0">GAWI01
- <animate attributeName="opacity" values="0;0;.55;0;0" keyTimes="0;.91;.925;.94;1" dur="5s" repeatCount="indefinite"/>
- <animate attributeName="x" values="43;43;35;50;43" keyTimes="0;.91;.925;.94;1" dur="5s" repeatCount="indefinite"/>
+<text x="42" y="276" fill="#55f991" font-family="monospace" font-size="86" font-weight="800" letter-spacing="7" filter="url(#glow)">GAWI01
+ <animate attributeName="opacity" values=".8;1;.8" dur="3s" repeatCount="indefinite"/>
 </text>
-<text x="48" y="300" fill="#f0f6fc" font-family="monospace" font-size="20" letter-spacing="4">GABRIEL WITZØE</text>
-<text x="48" y="333" fill="#c9d1d9" font-family="monospace" font-size="17" letter-spacing="3">SECURITY // AI // SOFTWARE</text>
-<g transform="translate(835 95)">
- <rect width="285" height="190" rx="12" fill="#0d1117" stroke="#245b3b"/>
+<text x="42" y="276" fill="#58a6ff" font-family="monospace" font-size="86" font-weight="800" letter-spacing="7" opacity="0">GAWI01
+ <animate attributeName="opacity" values="0;0;.5;0;0" keyTimes="0;.91;.925;.94;1" dur="5s" repeatCount="indefinite"/>
+ <animate attributeName="x" values="42;42;34;50;42" keyTimes="0;.91;.925;.94;1" dur="5s" repeatCount="indefinite"/>
+</text>
+<text x="48" y="318" fill="#f0f6fc" font-family="monospace" font-size="21" letter-spacing="4">GABRIEL WITZØE</text>
+<text x="48" y="350" fill="#c9d1d9" font-family="monospace" font-size="17" letter-spacing="3">SECURITY // AI // SOFTWARE</text>
+<g transform="translate(830 104)">
+ <rect width="290" height="188" rx="12" fill="#0d1117" fill-opacity=".92" stroke="#245b3b"/>
  <text x="24" y="34" fill="#8b949e" font-family="monospace" font-size="12">SYSTEM STATUS</text>
- <circle cx="28" cy="65" r="7" fill="#55f991" filter="url(#g)"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/></circle>
- <text x="49" y="71" fill="#55f991" font-family="monospace" font-size="16">ONLINE</text>
- <text x="24" y="108" fill="#8b949e" font-family="monospace" font-size="12">CURRENTLY</text>
- <text x="24" y="136" fill="#f0f6fc" font-family="monospace" font-size="14">building something</text>
- <text x="24" y="166" fill="#55f991" font-family="monospace" font-size="13">Norway // connected</text>
+ <circle cx="28" cy="66" r="7" fill="#55f991" filter="url(#glow)"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/></circle>
+ <text x="49" y="72" fill="#55f991" font-family="monospace" font-size="16">ONLINE</text>
+ <text x="24" y="111" fill="#8b949e" font-family="monospace" font-size="12">CURRENTLY</text>
+ <text x="24" y="139" fill="#f0f6fc" font-family="monospace" font-size="14">building something...</text>
+ <text x="24" y="169" fill="#55f991" font-family="monospace" font-size="13">NORWAY // CONNECTED</text>
 </g>
-<rect x="42" y="350" width="10" height="16" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
-<rect x="19" y="70" width="1162" height="18" fill="#55f991" opacity=".05"><animate attributeName="y" values="70;345;70" dur="5s" repeatCount="indefinite"/></rect>
+<rect x="49" y="367" width="10" height="16" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+<rect x="19" y="76" width="1162" height="16" fill="#55f991" opacity=".05"><animate attributeName="y" values="76;365;76" dur="5s" repeatCount="indefinite"/></rect>
+
 </svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#020806"/><stop offset=".5" stop-color="#07110d"/><stop offset="1" stop-color="#020806"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#0e6b45" stroke-width=".7" opacity=".22"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="500" fill="url(#bg)"/>
+<rect width="1200" height="500" fill="url(#grid)">
+  <animate attributeName="x" values="0;28;0" dur="9s" repeatCount="indefinite"/>
+</rect>
+<g opacity=".11">
+  <rect x="75" y="-100" width="2" height="700" fill="#55f991"><animate attributeName="x" values="75;1080;75" dur="13s" repeatCount="indefinite"/></rect>
+  <rect x="980" y="-100" width="1" height="700" fill="#58a6ff"><animate attributeName="x" values="980;180;980" dur="17s" repeatCount="indefinite"/></rect>
+</g>
+
+<g fill="#06100c" fill-opacity=".90" stroke="#245b3b">
+ <rect x="18" y="18" width="355" height="464" rx="12"/>
+ <rect x="390" y="18" width="792" height="215" rx="12"/>
+ <rect x="390" y="249" width="792" height="233" rx="12"/>
+</g>
+<g font-family="monospace">
+ <text x="40" y="54" fill="#55f991" font-size="18">// ABOUT</text>
+ <text x="40" y="94" fill="#c9d1d9" font-size="14">Cybersecurity background.</text>
+ <text x="40" y="121" fill="#c9d1d9" font-size="14">Building security, AI</text>
+ <text x="40" y="148" fill="#c9d1d9" font-size="14">and software projects.</text>
+ <text x="40" y="203" fill="#8b949e" font-size="12">MODE</text>
+ <text x="40" y="231" fill="#f0f6fc" font-size="14">LEARN → BUILD → BREAK</text>
+ <text x="40" y="258" fill="#f0f6fc" font-size="14">→ IMPROVE → SHIP</text>
+ <text x="40" y="315" fill="#8b949e" font-size="12">LOCATION</text>
+ <text x="40" y="343" fill="#55f991" font-size="14">NORWAY</text>
+ <text x="40" y="407" fill="#8b949e" font-size="12">STATUS</text>
+ <circle cx="46" cy="440" r="6" fill="#55f991"><animate attributeName="opacity" values=".25;1;.25" dur="1.3s" repeatCount="indefinite"/></circle>
+ <text x="63" y="445" fill="#55f991" font-size="14">ALWAYS BUILDING</text>
+
+ <text x="415" y="54" fill="#55f991" font-size="18">// TECH STACK</text>
+ <g font-size="15" fill="#f0f6fc">
+  <text x="420" y="101">[ Python ]</text><text x="545" y="101">[ TypeScript ]</text><text x="705" y="101">[ Next.js ]</text><text x="825" y="101">[ FastAPI ]</text><text x="950" y="101">[ Docker ]</text>
+  <text x="420" y="148">[ Supabase ]</text><text x="560" y="148">[ Git ]</text><text x="655" y="148">[ SQL ]</text><text x="750" y="148">[ Linux ]</text>
+ </g>
+ <text x="415" y="286" fill="#55f991" font-size="18">// SECURITY TOOLING</text>
+ <text x="420" y="333" fill="#c9d1d9" font-size="14">Burp Suite  ·  Nmap  ·  Wireshark  ·  ELK</text>
+ <text x="420" y="370" fill="#c9d1d9" font-size="14">Splunk  ·  Kali Linux</text>
+ <text x="420" y="432" fill="#8b949e" font-size="12">FOCUS</text>
+ <text x="477" y="432" fill="#55f991" font-size="13">SECURITY // AI // SOFTWARE</text>
+</g>
+
+</svg>

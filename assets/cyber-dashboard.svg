@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1650" viewBox="0 0 1200 1650">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#020806"/><stop offset=".48" stop-color="#07110d"/><stop offset="1" stop-color="#020806"/>
+  </linearGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M30 0H0V30" fill="none" stroke="#0e6b45" stroke-width=".8" opacity=".20"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+
+<!-- CONTINUOUS ANIMATED BACKGROUND -->
+<rect width="1200" height="1650" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="1650" rx="20" fill="url(#grid)">
+  <animateTransform attributeName="transform" type="translate" values="0 0;30 30;0 0" dur="12s" repeatCount="indefinite"/>
+</rect>
+<g opacity=".13">
+ <rect x="110" y="0" width="2" height="1650" fill="#55f991"><animate attributeName="x" values="110;1090;110" dur="17s" repeatCount="indefinite"/></rect>
+ <rect x="980" y="0" width="1" height="1650" fill="#58a6ff"><animate attributeName="x" values="980;180;980" dur="23s" repeatCount="indefinite"/></rect>
+</g>
+<g fill="#55f991" font-family="monospace" font-size="12" opacity=".13">
+ <text x="30" y="120">01001011 01000101 01010010 01001110 01000101 01001100<animate attributeName="y" values="120;1600;120" dur="29s" repeatCount="indefinite"/></text>
+ <text x="690" y="1480">root@gawi:~$ ./build --secure --ship<animate attributeName="y" values="1480;100;1480" dur="31s" repeatCount="indefinite"/></text>
+</g>
+<rect x="0" y="-25" width="1200" height="22" fill="#55f991" opacity=".055"><animate attributeName="y" values="-25;1650;-25" dur="8s" repeatCount="indefinite"/></rect>
+
+<!-- HEADER -->
+<rect x="28" y="28" width="1144" height="350" rx="14" fill="#06100c" fill-opacity=".90" stroke="#238636"/>
+<text x="54" y="65" fill="#55f991" font-family="monospace" font-size="14">▣ GAWI01 █</text>
+<text x="1140" y="65" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">BUILD // BREAK // LEARN // REPEAT</text>
+<line x1="52" y1="82" x2="1148" y2="82" stroke="#17432e"/>
+<g font-family="monospace" font-size="14">
+ <text x="58" y="119" fill="#55f991" opacity="0">&gt; INITIALIZING PROFILE...<animate attributeName="opacity" values="0;1;1" keyTimes="0;.08;1" dur="7s" repeatCount="indefinite"/></text>
+ <text x="58" y="145" fill="#55f991" opacity="0">&gt; LOADING SECURITY / AI / SOFTWARE...<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.13;.19;1" dur="7s" repeatCount="indefinite"/></text>
+ <text x="58" y="171" fill="#55f991" opacity="0">&gt; SYSTEM ONLINE.<animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.24;.30;1" dur="7s" repeatCount="indefinite"/></text>
+</g>
+<text x="55" y="275" fill="#55f991" font-family="monospace" font-size="84" font-weight="800" letter-spacing="7" filter="url(#glow)">GAWI01<animate attributeName="opacity" values=".78;1;.78" dur="3s" repeatCount="indefinite"/></text>
+<text x="55" y="275" fill="#58a6ff" font-family="monospace" font-size="84" font-weight="800" letter-spacing="7" opacity="0">GAWI01
+ <animate attributeName="opacity" values="0;0;.5;0;0" keyTimes="0;.91;.925;.94;1" dur="5s" repeatCount="indefinite"/>
+ <animate attributeName="x" values="55;55;47;64;55" keyTimes="0;.91;.925;.94;1" dur="5s" repeatCount="indefinite"/>
+</text>
+<text x="60" y="316" fill="#f0f6fc" font-family="monospace" font-size="20" letter-spacing="4">GABRIEL WITZØE</text>
+<text x="60" y="348" fill="#c9d1d9" font-family="monospace" font-size="16" letter-spacing="3">SECURITY // AI // SOFTWARE</text>
+<g transform="translate(845 112)" font-family="monospace">
+ <rect width="270" height="170" rx="11" fill="#0d1117" stroke="#245b3b"/>
+ <text x="22" y="32" fill="#8b949e" font-size="12">SYSTEM STATUS</text>
+ <circle cx="27" cy="64" r="7" fill="#55f991" filter="url(#glow)"><animate attributeName="opacity" values=".2;1;.2" dur="1.2s" repeatCount="indefinite"/></circle>
+ <text x="48" y="70" fill="#55f991" font-size="15">ONLINE</text>
+ <text x="22" y="107" fill="#8b949e" font-size="12">CURRENTLY</text>
+ <text x="22" y="135" fill="#f0f6fc" font-size="13">building something...</text>
+ <text x="22" y="157" fill="#55f991" font-size="12">NORWAY // CONNECTED</text>
+</g>
+
+<!-- ABOUT / STACK -->
+<g fill="#06100c" fill-opacity=".91" stroke="#245b3b">
+ <rect x="28" y="405" width="350" height="370" rx="12"/>
+ <rect x="395" y="405" width="777" height="180" rx="12"/>
+ <rect x="395" y="602" width="777" height="173" rx="12"/>
+</g>
+<g font-family="monospace">
+ <text x="52" y="445" fill="#55f991" font-size="18">// ABOUT ME</text>
+ <text x="52" y="486" fill="#c9d1d9" font-size="14">Cybersecurity background.</text>
+ <text x="52" y="514" fill="#c9d1d9" font-size="14">Building in security, AI</text>
+ <text x="52" y="542" fill="#c9d1d9" font-size="14">and software.</text>
+ <text x="52" y="598" fill="#8b949e" font-size="12">FOCUS</text>
+ <text x="52" y="627" fill="#f0f6fc" font-size="14">Security engineering</text>
+ <text x="52" y="655" fill="#f0f6fc" font-size="14">AI systems</text>
+ <text x="52" y="683" fill="#f0f6fc" font-size="14">Shipping real products</text>
+ <text x="52" y="738" fill="#55f991" font-size="12">● ALWAYS BUILDING</text>
+
+ <text x="420" y="445" fill="#55f991" font-size="18">// TECH STACK</text>
+ <text x="425" y="496" fill="#f0f6fc" font-size="15">[ Python ]   [ TypeScript ]   [ Next.js ]   [ FastAPI ]   [ Docker ]</text>
+ <text x="425" y="539" fill="#f0f6fc" font-size="15">[ Supabase ]   [ Git ]   [ SQL ]   [ Linux ]</text>
+
+ <text x="420" y="642" fill="#55f991" font-size="18">// SECURITY TOOLING</text>
+ <text x="425" y="691" fill="#c9d1d9" font-size="14">Burp Suite · Nmap · Wireshark · ELK · Splunk · Kali Linux</text>
+ <text x="425" y="739" fill="#8b949e" font-size="12">MODE</text>
+ <text x="480" y="739" fill="#55f991" font-size="12">LEARN → BUILD → BREAK → IMPROVE</text>
+</g>
+
+<!-- CONTRIBUTIONS PANEL -->
+<rect x="28" y="802" width="1144" height="240" rx="12" fill="#06100c" fill-opacity=".92" stroke="#245b3b"/>
+<g font-family="monospace">
+ <text x="52" y="842" fill="#55f991" font-size="18">// CONTRIBUTIONS</text>
+ <text x="1142" y="842" text-anchor="end" fill="#8b949e" font-size="12">LIVE DATA BELOW ↓</text>
+ <text x="52" y="886" fill="#c9d1d9" font-size="14">GitHub activity is loaded live by README.md.</text>
+ <text x="52" y="915" fill="#8b949e" font-size="13">The heatmap below this panel updates as your public contribution history changes.</text>
+ <g transform="translate(52 950)">
+  <rect width="14" height="14" rx="3" fill="#0e2b1d"/><rect x="24" width="14" height="14" rx="3" fill="#164d31"/><rect x="48" width="14" height="14" rx="3" fill="#238636"/><rect x="72" width="14" height="14" rx="3" fill="#55f991"/>
+  <text x="103" y="12" fill="#8b949e" font-size="12">LIVE GITHUB CONTRIBUTIONS</text>
+ </g>
+ <circle cx="1125" cy="970" r="6" fill="#55f991"><animate attributeName="opacity" values=".2;1;.2" dur="1.1s" repeatCount="indefinite"/></circle>
+</g>
+
+<!-- PROJECTS -->
+<rect x="28" y="1068" width="1144" height="310" rx="12" fill="#06100c" fill-opacity=".92" stroke="#245b3b"/>
+<rect x="52" y="1128" width="525" height="205" rx="10" fill="#0d1117" stroke="#245b3b"/>
+<rect x="600" y="1128" width="525" height="205" rx="10" fill="#0d1117" stroke="#245b3b"/>
+<g font-family="monospace">
+ <text x="52" y="1107" fill="#55f991" font-size="18">// FEATURED PROJECTS</text>
+ <text x="75" y="1170" fill="#55f991" font-size="21" font-weight="700">FPL-AI</text>
+ <text x="75" y="1205" fill="#c9d1d9" font-size="14">Fantasy Premier League prediction</text><text x="75" y="1229" fill="#c9d1d9" font-size="14">and optimization system.</text>
+ <text x="75" y="1277" fill="#58a6ff" font-size="13">PYTHON // FASTAPI // AI</text>
+ <text x="75" y="1307" fill="#55f991" font-size="13">● PUBLIC // ACTIVE</text>
+ <text x="625" y="1170" fill="#f0f6fc" font-size="21" font-weight="700">[REDACTED]</text>
+ <text x="625" y="1205" fill="#c9d1d9" font-size="14">Private projects, experiments</text><text x="625" y="1229" fill="#c9d1d9" font-size="14">and things still being built.</text>
+ <text x="625" y="1277" fill="#8b949e" font-size="13">ACCESS // PRIVATE</text>
+ <text x="625" y="1307" fill="#55f991" font-size="13">● STATUS // BUILDING</text>
+</g>
+
+<!-- OPERATIONS / FOOTER -->
+<rect x="28" y="1405" width="1144" height="200" rx="12" fill="#06100c" fill-opacity=".92" stroke="#245b3b"/>
+<g font-family="monospace">
+ <text x="52" y="1445" fill="#55f991" font-size="18">// CURRENT OPERATIONS</text>
+ <text x="60" y="1490" fill="#f0f6fc" font-size="13">SECURITY</text><text x="220" y="1490" fill="#55f991" font-size="13">● ACTIVE</text>
+ <text x="60" y="1522" fill="#f0f6fc" font-size="13">AI SYSTEMS</text><text x="220" y="1522" fill="#55f991" font-size="13">● BUILDING</text>
+ <text x="60" y="1554" fill="#f0f6fc" font-size="13">FPL-AI</text><text x="220" y="1554" fill="#55f991" font-size="13">● ACTIVE</text>
+ <line x1="520" y1="1462" x2="520" y2="1570" stroke="#17432e"/>
+ <text x="560" y="1490" fill="#8b949e" font-size="12">NEXT OBJECTIVE</text>
+ <text x="560" y="1526" fill="#55f991" font-size="16">&gt; ship something useful</text>
+ <rect x="800" y="1512" width="9" height="17" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+ <text x="560" y="1567" fill="#8b949e" font-size="12">build // break // learn // repeat</text>
+</g>
+</svg>

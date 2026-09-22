@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="306" viewBox="0 0 1200 306">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#020806"/><stop offset=".5" stop-color="#07110d"/><stop offset="1" stop-color="#020806"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#0e6b45" stroke-width=".7" opacity=".22"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="306" fill="url(#bg)"/>
+<rect width="1200" height="306" fill="url(#grid)">
+  <animate attributeName="x" values="0;28;0" dur="9s" repeatCount="indefinite"/>
+</rect>
+<g opacity=".11">
+  <rect x="75" y="-100" width="2" height="506" fill="#55f991"><animate attributeName="x" values="75;1080;75" dur="13s" repeatCount="indefinite"/></rect>
+  <rect x="980" y="-100" width="1" height="506" fill="#58a6ff"><animate attributeName="x" values="980;180;980" dur="17s" repeatCount="indefinite"/></rect>
+</g>
+
+<rect x="18" y="18" width="1164" height="270" rx="12" fill="#06100c" fill-opacity=".91" stroke="#245b3b"/>
+<g font-family="monospace">
+ <text x="42" y="56" fill="#55f991" font-size="18">// CURRENT OPERATIONS</text>
+ <text x="54" y="105" fill="#f0f6fc" font-size="14">SECURITY</text><text x="250" y="105" fill="#55f991" font-size="14">● ACTIVE</text>
+ <text x="54" y="140" fill="#f0f6fc" font-size="14">AI SYSTEMS</text><text x="250" y="140" fill="#55f991" font-size="14">● BUILDING</text>
+ <text x="54" y="175" fill="#f0f6fc" font-size="14">FPL-AI</text><text x="250" y="175" fill="#55f991" font-size="14">● ACTIVE</text>
+ <text x="54" y="210" fill="#f0f6fc" font-size="14">[REDACTED]</text><text x="250" y="210" fill="#8b949e" font-size="14">● CLASSIFIED</text>
+ <line x1="560" y1="74" x2="560" y2="240" stroke="#17432e"/>
+ <text x="600" y="106" fill="#8b949e" font-size="12">NEXT OBJECTIVE</text>
+ <text x="600" y="146" fill="#55f991" font-size="17">&gt; ship something useful</text>
+ <rect x="839" y="132" width="10" height="18" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+ <text x="600" y="205" fill="#8b949e" font-size="12">SYSTEM</text>
+ <text x="600" y="232" fill="#f0f6fc" font-size="13">build // break // learn // repeat</text>
+</g>
+
+</svg>

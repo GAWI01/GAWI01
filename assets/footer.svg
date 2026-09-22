@@ -1,10 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="145" viewBox="0 0 1200 145">
-<rect width="1200" height="145" rx="16" fill="#07110d" stroke="#245b3b"/>
-<text x="38" y="48" fill="#55f991" font-family="monospace" font-size="16">GAWI01</text>
-<text x="38" y="77" fill="#8b949e" font-family="monospace" font-size="13">SECURITY // AI // SOFTWARE</text>
-<text x="600" y="72" text-anchor="middle" fill="#55f991" font-family="monospace" font-size="17">BUILD // BREAK // LEARN // REPEAT</text>
-<rect x="838" y="58" width="9" height="16" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
-<text x="1160" y="48" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">OPEN SOURCE MINDED.</text>
-<text x="1160" y="76" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">ALWAYS LEARNING.</text>
-<text x="1160" y="104" text-anchor="end" fill="#55f991" font-family="monospace" font-size="13">ALWAYS BUILDING.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#020806"/><stop offset=".5" stop-color="#07110d"/><stop offset="1" stop-color="#020806"/>
+  </linearGradient>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+    <path d="M28 0H0V28" fill="none" stroke="#0e6b45" stroke-width=".7" opacity=".22"/>
+  </pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="156" fill="url(#bg)"/>
+<rect width="1200" height="156" fill="url(#grid)">
+  <animate attributeName="x" values="0;28;0" dur="9s" repeatCount="indefinite"/>
+</rect>
+<g opacity=".11">
+  <rect x="75" y="-100" width="2" height="356" fill="#55f991"><animate attributeName="x" values="75;1080;75" dur="13s" repeatCount="indefinite"/></rect>
+  <rect x="980" y="-100" width="1" height="356" fill="#58a6ff"><animate attributeName="x" values="980;180;980" dur="17s" repeatCount="indefinite"/></rect>
+</g>
+
+<rect x="18" y="18" width="1164" height="120" rx="12" fill="#06100c" fill-opacity=".92" stroke="#245b3b"/>
+<text x="42" y="58" fill="#55f991" font-family="monospace" font-size="16">GAWI01</text>
+<text x="42" y="88" fill="#8b949e" font-family="monospace" font-size="13">SECURITY // AI // SOFTWARE</text>
+<text x="600" y="80" text-anchor="middle" fill="#55f991" font-family="monospace" font-size="16">A MORE SECURE TOMORROW.</text>
+<rect x="742" y="66" width="9" height="16" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+<text x="1150" y="58" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">OPEN SOURCE MINDED.</text>
+<text x="1150" y="88" text-anchor="end" fill="#55f991" font-family="monospace" font-size="13">ALWAYS BUILDING.</text>
+
 </svg>
