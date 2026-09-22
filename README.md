@@ -1,64 +1,48 @@
 <p align="center">
-  <img src="./assets/tokyo-neon-header.svg" width="100%" alt="GAWI01 neon Tokyo cyberpunk header">
+  <img src="./assets/tokyo-neon-header.svg" width="100%" alt="GAWI01 — Gabriel Witzøe — Cybersecurity, AI and Software">
 </p>
 
-## `// ABOUT ME`
+# About
 
-**Cybersecurity junior.**  
-Building things.
+**Cybersecurity junior · Building things.**
 
-**Focus:** Cybersecurity · AI · Software projects
+Cybersecurity · AI · Software
 
----
+# Stack
 
-## `// TECH STACK`
+`Python` `TypeScript` `Next.js` `FastAPI` `Supabase` `SQL` `Git`
 
-`Python` · `TypeScript` · `Next.js` · `FastAPI` · `Supabase` · `Git / GitHub` · `SQL`
+**Security**  
+`Burp Suite` `Nmap` `Wireshark` `ELK` `Splunk` `Kali Linux`
 
-## `// SECURITY TOOLING`
+# Selected work
 
-`Burp Suite` · `Nmap` · `Wireshark` · `ELK` · `Splunk` · `Kali Linux`
-
----
-
-## `// FEATURED PROJECTS`
-
-### FPL-AI
-Fantasy Premier League prediction and optimization system.
-
-`Python` · `FastAPI` · `AI`  
-**Status:** Public / Active  
-[View repository](https://github.com/GAWI01/FPL-AI)
+### [FPL-AI](https://github.com/GAWI01/FPL-AI)
+Fantasy Premier League prediction and optimization system.  
+`Python` `FastAPI` `AI` · **Public / Active**
 
 ### `[REDACTED]`
-Private projects, experiments and things still being built.
-
-**Status:** Building
-
----
+Private projects and experiments currently being built.  
+**Status:** `BUILDING`
 
 <p align="center">
-  <img src="./assets/neon-divider.svg" width="100%" alt="Neon Tokyo skyline divider">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Tokyo night city — build mode">
 </p>
 
-## `// CURRENT OPERATIONS`
+# Current
 
-| | Status |
-|---|---|
-| Security | `ACTIVE` |
-| AI systems | `BUILDING` |
-| FPL-AI | `ACTIVE` |
+**Security** `ACTIVE` · **AI systems** `BUILDING` · **FPL-AI** `ACTIVE`
 
 > `> ship something useful █`
 
-`build // break // learn // repeat`
-
----
+<p align="center">
+  <code>build // break // learn // repeat</code>
+</p>
 
 <p align="center">
-  <a href="https://github.com/GAWI01">GITHUB</a>
-  &nbsp;//&nbsp;
-  <a href="https://github.com/GAWI01/FPL-AI">FPL-AI</a>
-  &nbsp;//&nbsp;
-  <a href="https://www.linkedin.com/in/gabriel-witz%C3%B8e-51384a275">LINKEDIN</a>
+  <a href="https://github.com/GAWI01"><b>GITHUB</b></a>
+  &nbsp; // &nbsp;
+  <a href="https://github.com/GAWI01/FPL-AI"><b>FPL-AI</b></a>
+  &nbsp; // &nbsp;
+  <a href="https://www.linkedin.com/in/gabriel-witz%C3%B8e-51384a275"><b>LINKEDIN</b></a>
 </p>

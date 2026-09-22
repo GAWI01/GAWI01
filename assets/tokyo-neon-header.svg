@@ -1,43 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="470" viewBox="0 0 1200 470">
 <defs>
-  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#08051c"/><stop offset=".55" stop-color="#170b35"/><stop offset="1" stop-color="#070913"/></linearGradient>
-  <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff2bd6"/><stop offset="1" stop-color="#ff7a00"/></linearGradient>
-  <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5ff"/><stop offset=".48" stop-color="#ff2bd6"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
-  <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse"><path d="M38 0H0V38" fill="none" stroke="#00f5ff" stroke-width=".7" opacity=".13"/></pattern>
-  <filter id="cyanGlow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <filter id="pinkGlow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <clipPath id="sunClip"><circle cx="930" cy="176" r="95"/></clipPath>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#08051c"/><stop offset=".58" stop-color="#170b35"/><stop offset="1" stop-color="#070913"/></linearGradient>
+ <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff2bd6"/><stop offset="1" stop-color="#ff7a00"/></linearGradient>
+ <linearGradient id="title" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5ff"/><stop offset=".48" stop-color="#ff2bd6"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+ <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#00f5ff" stroke-width="1" opacity=".12"/></pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <filter id="pink"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <clipPath id="sunClip"><circle cx="930" cy="182" r="100"/></clipPath>
 </defs>
-<rect width="1200" height="430" rx="22" fill="url(#sky)"/>
-<rect width="1200" height="430" rx="22" fill="url(#grid)"><animateTransform attributeName="transform" type="translate" values="0 0;38 38;0 0" dur="14s" repeatCount="indefinite"/></rect>
-<!-- neon sun -->
-<circle cx="930" cy="176" r="95" fill="url(#sun)" opacity=".9" filter="url(#pinkGlow)"/>
-<g clip-path="url(#sunClip)" stroke="#11092a" stroke-width="8" opacity=".75"><path d="M820 125H1040M820 148H1040M820 174H1040M820 203H1040M820 235H1040"/></g>
-<!-- distant city -->
-<g fill="#090b18" stroke="#34205e" stroke-width="1">
- <path d="M0 328V266h44v-46h52v74h45v-105h66v80h43v-40h53v77h47v-128h68v106h51v-60h46v79h53v-92h57v118h55v-67h51v111z"/>
- <path d="M705 328v-89h52v-54h43v92h44v-133h58v117h50v-69h45v83h43v-108h64v141h46v-79h50v99z"/>
-</g>
-<!-- windows -->
-<g fill="#00f5ff" opacity=".7"><rect x="160" y="211" width="7" height="14"/><rect x="183" y="211" width="7" height="14"/><rect x="326" y="208" width="8" height="15"/><rect x="356" y="208" width="8" height="15"/><rect x="744" y="258" width="8" height="14"/><rect x="780" y="214" width="8" height="14"/><rect x="1025" y="195" width="8" height="14"/></g>
-<g fill="#ff2bd6" opacity=".75"><rect x="63" y="241" width="8" height="15"/><rect x="218" y="284" width="8" height="14"/><rect x="393" y="205" width="8" height="15"/><rect x="856" y="170" width="8" height="15"/><rect x="1080" y="191" width="8" height="15"/></g>
-<!-- torii silhouette -->
-<g fill="#050710"><rect x="1030" y="249" width="13" height="79"/><rect x="1120" y="249" width="13" height="79"/><rect x="1005" y="240" width="154" height="10" rx="4"/><rect x="1018" y="256" width="128" height="8"/></g>
-<!-- foreground -->
-<rect x="0" y="328" width="1200" height="102" fill="#05070d"/>
-<path d="M0 397L600 333L1200 397" fill="none" stroke="#ff2bd6" stroke-width="2" opacity=".35"/>
-<path d="M0 416L600 343L1200 416" fill="none" stroke="#00f5ff" stroke-width="2" opacity=".28"/>
-<!-- header -->
-<text x="52" y="57" fill="#00f5ff" font-family="monospace" font-size="16" filter="url(#cyanGlow)">東京 // GAWI01 // NODE_01</text>
-<text x="1148" y="57" text-anchor="end" fill="#ff4fd8" font-family="monospace" font-size="14">ONLINE ●</text>
-<line x1="52" y1="77" x2="1148" y2="77" stroke="url(#title)" opacity=".6"/>
-<text x="55" y="160" fill="url(#title)" font-family="monospace" font-size="82" font-weight="800" letter-spacing="8" filter="url(#cyanGlow)">GAWI01</text>
-<text x="60" y="202" fill="#f5f7ff" font-family="monospace" font-size="24" letter-spacing="5">GABRIEL WITZØE</text>
-<text x="60" y="237" fill="#00f5ff" font-family="monospace" font-size="18" letter-spacing="3">CYBERSECURITY</text>
-<text x="245" y="237" fill="#ff2bd6" font-family="monospace" font-size="18" letter-spacing="3">// AI</text>
-<text x="325" y="237" fill="#ffd166" font-family="monospace" font-size="18" letter-spacing="3">// SOFTWARE</text>
-<text x="60" y="283" fill="#b9b5d0" font-family="monospace" font-size="16">&gt; building things after dark...</text>
-<rect x="60" y="302" width="11" height="19" fill="#00f5ff"><animate attributeName="opacity" values="1;.1;1" dur="1s" repeatCount="indefinite"/></rect>
-<!-- scanline -->
-<rect x="0" y="-12" width="1200" height="12" fill="#00f5ff" opacity=".06"><animate attributeName="y" values="-12;430;-12" dur="6s" repeatCount="indefinite"/></rect>
+<rect width="1200" height="470" rx="22" fill="url(#sky)"/>
+<rect width="1200" height="470" rx="22" fill="url(#grid)"><animateTransform attributeName="transform" type="translate" values="0 0;42 42;0 0" dur="14s" repeatCount="indefinite"/></rect>
+<circle cx="930" cy="182" r="100" fill="url(#sun)" opacity=".92" filter="url(#pink)"/>
+<g clip-path="url(#sunClip)" stroke="#11092a" stroke-width="9" opacity=".78"><path d="M815 128H1045M815 154H1045M815 183H1045M815 215H1045M815 249H1045"/></g>
+<g fill="#090b18" stroke="#34205e" stroke-width="1.5"><path d="M0 354V286h48v-50h58v80h48v-112h70v86h47v-43h58v83h50v-136h72v113h55v-64h50v85h57v-99h62v127z"/><path d="M700 354v-96h55v-58h47v99h48V156h62v126h54v-74h48v89h47V181h68v151h50v-85h51v107z"/></g>
+<g fill="#00f5ff" opacity=".78"><rect x="168" y="229" width="10" height="20"/><rect x="198" y="229" width="10" height="20"/><rect x="344" y="226" width="10" height="20"/><rect x="786" y="232" width="10" height="20"/><rect x="1028" y="211" width="10" height="20"/></g>
+<g fill="#ff2bd6" opacity=".8"><rect x="70" y="263" width="10" height="20"/><rect x="229" y="305" width="10" height="20"/><rect x="398" y="222" width="10" height="20"/><rect x="1082" y="207" width="10" height="20"/></g>
+<g fill="#050710"><rect x="1030" y="270" width="14" height="84"/><rect x="1120" y="270" width="14" height="84"/><rect x="1003" y="260" width="158" height="11" rx="4"/><rect x="1018" y="278" width="128" height="9"/></g>
+<rect x="0" y="354" width="1200" height="116" fill="#05070d"/>
+<path d="M0 422L600 360L1200 422" fill="none" stroke="#ff2bd6" stroke-width="3" opacity=".42"/><path d="M0 451L600 373L1200 451" fill="none" stroke="#00f5ff" stroke-width="3" opacity=".34"/>
+<!-- mobile-first typography: no tiny text -->
+<text x="55" y="70" fill="#00f5ff" font-family="monospace" font-size="28" font-weight="700" filter="url(#glow)">東京 // GAWI01</text>
+<text x="1145" y="70" text-anchor="end" fill="#ff4fd8" font-family="monospace" font-size="25" font-weight="700">ONLINE ●</text>
+<line x1="55" y1="92" x2="1145" y2="92" stroke="url(#title)" stroke-width="2" opacity=".7"/>
+<text x="55" y="190" fill="url(#title)" font-family="monospace" font-size="96" font-weight="900" letter-spacing="8" filter="url(#glow)">GAWI01</text>
+<text x="60" y="240" fill="#f5f7ff" font-family="monospace" font-size="34" font-weight="700" letter-spacing="5">GABRIEL WITZØE</text>
+<text x="60" y="292" fill="#00f5ff" font-family="monospace" font-size="28" font-weight="700">CYBERSECURITY</text>
+<text x="300" y="292" fill="#ff2bd6" font-family="monospace" font-size="28" font-weight="700">// AI</text>
+<text x="405" y="292" fill="#ffd166" font-family="monospace" font-size="28" font-weight="700">// SOFTWARE</text>
+<text x="60" y="335" fill="#d7d3e8" font-family="monospace" font-size="25">&gt; building things...</text>
+<rect x="330" y="314" width="14" height="25" fill="#00f5ff"><animate attributeName="opacity" values="1;.1;1" dur="1s" repeatCount="indefinite"/></rect>
+<rect x="0" y="-14" width="1200" height="14" fill="#00f5ff" opacity=".07"><animate attributeName="y" values="-14;470;-14" dur="6s" repeatCount="indefinite"/></rect>
 </svg>
