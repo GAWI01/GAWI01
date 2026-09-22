@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<rect width="1200" height="330" rx="16" fill="#07110d"/>
+<g fill="#0d1117" stroke="#245b3b"><rect x="18" y="18" width="1164" height="294" rx="12"/><rect x="42" y="76" width="535" height="195" rx="10"/><rect x="600" y="76" width="535" height="195" rx="10"/></g>
+<g font-family="monospace">
+<text x="42" y="53" fill="#55f991" font-size="18">// FEATURED PROJECTS</text>
+<text x="65" y="112" fill="#55f991" font-size="22" font-weight="700">FPL-AI</text>
+<text x="65" y="145" fill="#c9d1d9" font-size="14">Fantasy Premier League prediction</text><text x="65" y="168" fill="#c9d1d9" font-size="14">and optimization system.</text>
+<text x="65" y="213" fill="#58a6ff" font-size="13">PYTHON  //  FASTAPI  //  AI</text><text x="65" y="244" fill="#55f991" font-size="13">PUBLIC  ● ACTIVE</text>
+<text x="625" y="112" fill="#f0f6fc" font-size="22" font-weight="700">[REDACTED]</text>
+<text x="625" y="145" fill="#c9d1d9" font-size="14">Private projects, experiments</text><text x="625" y="168" fill="#c9d1d9" font-size="14">and things still being built.</text>
+<text x="625" y="213" fill="#8b949e" font-size="13">ACCESS  //  PRIVATE</text><text x="625" y="244" fill="#55f991" font-size="13">STATUS  ● BUILDING</text>
+</g>
+<rect x="1088" y="39" width="9" height="14" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+</svg>

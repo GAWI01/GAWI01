@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs><linearGradient id="b"><stop stop-color="#07110d"/><stop offset="1" stop-color="#0d1117"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1200" height="390" rx="16" fill="url(#b)"/>
+<g fill="#0d1117" stroke="#245b3b">
+ <rect x="18" y="18" width="365" height="354" rx="12"/><rect x="400" y="18" width="782" height="170" rx="12"/><rect x="400" y="204" width="782" height="168" rx="12"/>
+</g>
+<g font-family="monospace">
+ <text x="40" y="52" fill="#55f991" font-size="18">// ABOUT ME</text>
+ <text x="40" y="91" fill="#c9d1d9" font-size="14">Cybersecurity background.</text>
+ <text x="40" y="118" fill="#c9d1d9" font-size="14">Building in security, AI</text>
+ <text x="40" y="145" fill="#c9d1d9" font-size="14">and software.</text>
+ <text x="40" y="195" fill="#8b949e" font-size="13">FOCUS</text>
+ <text x="40" y="223" fill="#f0f6fc" font-size="14">Security engineering</text>
+ <text x="40" y="249" fill="#f0f6fc" font-size="14">AI systems</text>
+ <text x="40" y="275" fill="#f0f6fc" font-size="14">Shipping real products</text>
+ <text x="40" y="329" fill="#55f991" font-size="13">STATUS: ALWAYS BUILDING</text>
+
+ <text x="425" y="52" fill="#55f991" font-size="18">// TECH STACK</text>
+ <g font-size="15" fill="#f0f6fc">
+  <text x="430" y="96">[ Python ]</text><text x="555" y="96">[ TypeScript ]</text><text x="715" y="96">[ Next.js ]</text><text x="835" y="96">[ FastAPI ]</text><text x="960" y="96">[ Docker ]</text>
+  <text x="430" y="137">[ Supabase ]</text><text x="570" y="137">[ Git ]</text><text x="665" y="137">[ SQL ]</text><text x="760" y="137">[ Linux ]</text>
+ </g>
+ <text x="425" y="238" fill="#55f991" font-size="18">// SECURITY TOOLING</text>
+ <g font-size="14" fill="#c9d1d9">
+  <text x="430" y="282">Burp Suite  ·  Nmap  ·  Wireshark  ·  ELK  ·  Splunk  ·  Kali Linux</text>
+ </g>
+ <text x="430" y="327" fill="#8b949e" font-size="13">MODE</text>
+ <text x="485" y="327" fill="#55f991" font-size="13">LEARN → BUILD → BREAK → IMPROVE</text>
+ <circle cx="1138" cy="326" r="6" fill="#55f991"><animate attributeName="opacity" values=".2;1;.2" dur="1.1s" repeatCount="indefinite"/></circle>
+</g>
+</svg>

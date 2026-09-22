@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="145" viewBox="0 0 1200 145">
+<rect width="1200" height="145" rx="16" fill="#07110d" stroke="#245b3b"/>
+<text x="38" y="48" fill="#55f991" font-family="monospace" font-size="16">GAWI01</text>
+<text x="38" y="77" fill="#8b949e" font-family="monospace" font-size="13">SECURITY // AI // SOFTWARE</text>
+<text x="600" y="72" text-anchor="middle" fill="#55f991" font-family="monospace" font-size="17">BUILD // BREAK // LEARN // REPEAT</text>
+<rect x="838" y="58" width="9" height="16" fill="#55f991"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
+<text x="1160" y="48" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">OPEN SOURCE MINDED.</text>
+<text x="1160" y="76" text-anchor="end" fill="#8b949e" font-family="monospace" font-size="13">ALWAYS LEARNING.</text>
+<text x="1160" y="104" text-anchor="end" fill="#55f991" font-family="monospace" font-size="13">ALWAYS BUILDING.</text>
+</svg>
