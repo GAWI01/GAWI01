@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/cyber-header.svg" width="100%" alt="GAWI01 animated cyber header">
+  <img src="./assets/tokyo-neon-header.svg" width="100%" alt="GAWI01 neon Tokyo cyberpunk header">
 </p>
 
 ## `// ABOUT ME`
@@ -36,6 +36,10 @@ Private projects, experiments and things still being built.
 **Status:** Building
 
 ---
+
+<p align="center">
+  <img src="./assets/neon-divider.svg" width="100%" alt="Neon Tokyo skyline divider">
+</p>
 
 ## `// CURRENT OPERATIONS`
 
