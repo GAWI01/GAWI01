@@ -59,23 +59,23 @@
 </g>
 <g font-family="monospace">
  <text x="52" y="445" fill="#55f991" font-size="18">// ABOUT ME</text>
- <text x="52" y="486" fill="#c9d1d9" font-size="14">Cybersecurity background.</text>
- <text x="52" y="514" fill="#c9d1d9" font-size="14">Building in security, AI</text>
- <text x="52" y="542" fill="#c9d1d9" font-size="14">and software.</text>
+ <text x="52" y="486" fill="#c9d1d9" font-size="14">Cybersecurity junior.</text>
+ <text x="52" y="514" fill="#c9d1d9" font-size="14">Building things.</text>
+ <text x="52" y="542" fill="#c9d1d9" font-size="14"></text>
  <text x="52" y="598" fill="#8b949e" font-size="12">FOCUS</text>
- <text x="52" y="627" fill="#f0f6fc" font-size="14">Security engineering</text>
- <text x="52" y="655" fill="#f0f6fc" font-size="14">AI systems</text>
- <text x="52" y="683" fill="#f0f6fc" font-size="14">Shipping real products</text>
+ <text x="52" y="627" fill="#f0f6fc" font-size="14">Cybersecurity</text>
+ <text x="52" y="655" fill="#f0f6fc" font-size="14">AI</text>
+ <text x="52" y="683" fill="#f0f6fc" font-size="14">Software projects</text>
  <text x="52" y="738" fill="#55f991" font-size="12">● ALWAYS BUILDING</text>
 
  <text x="420" y="445" fill="#55f991" font-size="18">// TECH STACK</text>
- <text x="425" y="496" fill="#f0f6fc" font-size="15">[ Python ]   [ TypeScript ]   [ Next.js ]   [ FastAPI ]   [ Docker ]</text>
- <text x="425" y="539" fill="#f0f6fc" font-size="15">[ Supabase ]   [ Git ]   [ SQL ]   [ Linux ]</text>
+ <text x="425" y="496" fill="#f0f6fc" font-size="15">[ Python ]   [ TypeScript ]   [ Next.js ]   [ FastAPI ]</text>
+ <text x="425" y="539" fill="#f0f6fc" font-size="15">[ Supabase ]   [ Git / GitHub ]   [ SQL ]</text>
 
  <text x="420" y="642" fill="#55f991" font-size="18">// SECURITY TOOLING</text>
  <text x="425" y="691" fill="#c9d1d9" font-size="14">Burp Suite · Nmap · Wireshark · ELK · Splunk · Kali Linux</text>
  <text x="425" y="739" fill="#8b949e" font-size="12">MODE</text>
- <text x="480" y="739" fill="#55f991" font-size="12">LEARN → BUILD → BREAK → IMPROVE</text>
+ <text x="480" y="739" fill="#55f991" font-size="12">LABS // LEARNING // PROJECTS</text>
 </g>
 
 <!-- CONTRIBUTIONS PANEL -->
