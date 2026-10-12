@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="GAWI01 — Gabriel Witzøe — Cybersecurity, AI, Software">
+<defs></defs>
+<rect x="1.5" y="1.5" width="1197" height="377" fill="#f2f0eb" stroke="#111" stroke-width="3"/>
+<line x1="800" y1="0" x2="800" y2="380" stroke="#111" stroke-width="3"/>
+<line x1="800" y1="190" x2="1200" y2="190" stroke="#111" stroke-width="3"/>
+<circle cx="1000" cy="95" r="62" fill="#e63322"><animateTransform attributeName="transform" type="translate" values="-40 0;40 0;-40 0" dur="8s" repeatCount="indefinite"/></circle>
+<text x="40" y="64" fill="#111" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="800">Gabriel Witzøe</text>
+<text x="760" y="64" text-anchor="end" fill="#111" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="500">Norway</text>
+<text x="28" y="340" fill="#111" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="190" font-weight="900" letter-spacing="-10">GAWI01</text>
+<g font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="24" font-weight="800" fill="#111"><text x="830" y="240"><tspan fill="#e63322">01</tspan>  Cybersecurity</text><text x="830" y="290"><tspan fill="#e63322">02</tspan>  AI</text><text x="830" y="340"><tspan fill="#e63322">03</tspan>  Software</text></g>
+</svg>

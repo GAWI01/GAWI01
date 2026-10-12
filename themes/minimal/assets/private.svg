@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-label="Private projects in active development">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161b22"/><stop offset="1" stop-color="#161b22"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#f0f6fc"/><stop offset=".5" stop-color="#8b949e"/><stop offset="1" stop-color="#f0f6fc"/></linearGradient><clipPath id="c"><rect width="560" height="220" rx="12"/></clipPath></defs>
+<g clip-path="url(#c)">
+<rect width="560" height="220" fill="url(#bg)"/>
+<text x="28" y="44" fill="#8b949e" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="600" letter-spacing="2">PRIVATE REPOS</text>
+<circle cx="424" cy="40" r="5" fill="#f0f6fc"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="532" y="45" text-anchor="end" fill="#f0f6fc" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="1.5">CLASSIFIED</text>
+<text x="28" y="90" fill="#f0f6fc" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="36" font-weight="800">[REDACTED]</text>
+<rect x="28" y="108" width="300" height="18" rx="3" fill="#30363d"/><rect x="28" y="108" width="0" height="18" rx="3" fill="#8b949e" opacity=".7"><animate attributeName="width" values="0;300;300;0" keyTimes="0;.4;.8;1" dur="5s" repeatCount="indefinite"/></rect>
+<rect x="28" y="134" width="220" height="18" rx="3" fill="#30363d"/>
+<text x="28" y="186" fill="#8b949e" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16">Experiments in active development.</text>
+<g transform="translate(470 120)" fill="none" stroke="#8b949e" stroke-width="3"><rect x="-22" y="-4" width="44" height="34" rx="6"/><path d="M-12 -4v-10a12 12 0 0 1 24 0v10"/><circle cx="0" cy="12" r="4" fill="#8b949e"/></g>
+</g>
+<rect x="0.5" y="0.5" width="559" height="219" rx="12" fill="none" stroke="#30363d" stroke-width="1"/>
+</svg>

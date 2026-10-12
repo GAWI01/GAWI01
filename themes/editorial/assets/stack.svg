@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="230" viewBox="0 0 1150 230" role="img" aria-label="Stack — Python, TypeScript, Next.js, FastAPI, Supabase, SQL, Git, Docker, Linux, Burp Suite, Nmap, Wireshark, Kali Linux, Splunk, ELK">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faf6ef"/><stop offset="1" stop-color="#faf6ef"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#c8553d"/><stop offset=".5" stop-color="#6b7f3e"/><stop offset="1" stop-color="#d49a3a"/></linearGradient><clipPath id="c"><rect width="1150" height="230" rx="6"/></clipPath></defs>
+<g clip-path="url(#c)">
+<rect width="1150" height="230" fill="url(#bg)"/>
+<text x="28" y="44" fill="#8a7f70" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="0.5">Stack</text>
+<circle cx="998" cy="40" r="5" fill="#c8553d"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="1122" y="45" text-anchor="end" fill="#c8553d" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">Daily drivers</text>
+<text x="28" y="82" fill="#c8553d" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">Core</text>
+<rect x="28" y="94" width="70" height="28" rx="14" fill="#f1e6d4"/><text x="63" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Python</text>
+<rect x="106" y="94" width="99" height="28" rx="14" fill="#f1e6d4"/><text x="155" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">TypeScript</text>
+<rect x="212" y="94" width="77" height="28" rx="14" fill="#f1e6d4"/><text x="251" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Next.js</text>
+<rect x="297" y="94" width="77" height="28" rx="14" fill="#f1e6d4"/><text x="336" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">FastAPI</text>
+<rect x="382" y="94" width="84" height="28" rx="14" fill="#f1e6d4"/><text x="425" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Supabase</text>
+<rect x="475" y="94" width="48" height="28" rx="14" fill="#f1e6d4"/><text x="499" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">SQL</text>
+<rect x="530" y="94" width="48" height="28" rx="14" fill="#f1e6d4"/><text x="554" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Git</text>
+<rect x="586" y="94" width="70" height="28" rx="14" fill="#f1e6d4"/><text x="621" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Docker</text>
+<rect x="664" y="94" width="62" height="28" rx="14" fill="#f1e6d4"/><text x="695" y="113" text-anchor="middle" fill="#8f3a28" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Linux</text>
+<text x="28" y="160" fill="#d49a3a" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">Security</text>
+<rect x="28" y="172" width="99" height="28" rx="14" fill="#e8ecdc"/><text x="77" y="191" text-anchor="middle" fill="#4f5f2a" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Burp Suite</text>
+<rect x="135" y="172" width="55" height="28" rx="14" fill="#e8ecdc"/><text x="162" y="191" text-anchor="middle" fill="#4f5f2a" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Nmap</text>
+<rect x="198" y="172" width="92" height="28" rx="14" fill="#e8ecdc"/><text x="244" y="191" text-anchor="middle" fill="#4f5f2a" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Wireshark</text>
+<rect x="297" y="172" width="99" height="28" rx="14" fill="#e8ecdc"/><text x="347" y="191" text-anchor="middle" fill="#4f5f2a" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Kali Linux</text>
+<rect x="404" y="172" width="70" height="28" rx="14" fill="#e8ecdc"/><text x="439" y="191" text-anchor="middle" fill="#4f5f2a" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">Splunk</text>
+<rect x="482" y="172" width="48" height="28" rx="14" fill="#e8ecdc"/><text x="506" y="191" text-anchor="middle" fill="#4f5f2a" font-family="Georgia,'Times New Roman',serif" font-size="14" font-weight="700">ELK</text>
+</g>
+<rect x="0.5" y="0.5" width="1149" height="229" rx="6" fill="none" stroke="#e3d8c4" stroke-width="1"/>
+</svg>

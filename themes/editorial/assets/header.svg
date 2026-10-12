@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-label="Gabriel Witzøe — on cybersecurity, AI and software">
+<defs></defs>
+<rect width="1200" height="330" rx="6" fill="#faf6ef" stroke="#e3d8c4"/>
+<line x1="60" y1="58" x2="1140" y2="58" stroke="#2f2b26" stroke-width="2"/><line x1="60" y1="64" x2="1140" y2="64" stroke="#2f2b26" stroke-width=".8"/>
+<text x="60" y="46" fill="#8a7f70" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">PORTFOLIO</text>
+<text x="600" y="46" text-anchor="middle" fill="#8a7f70" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">VOL. 01</text>
+<text x="1140" y="46" text-anchor="end" fill="#8a7f70" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="3">NORWAY</text>
+<text x="600" y="168" text-anchor="middle" fill="#2f2b26" font-family="Georgia,'Times New Roman',serif" font-size="88" font-weight="700">Gabriel Witzøe</text>
+<text x="600" y="218" text-anchor="middle" fill="#c8553d" font-family="Georgia,'Times New Roman',serif" font-size="28" font-style="italic">on cybersecurity, AI &amp; software</text>
+<g transform="translate(600 254)"><line x1="-90" x2="-18" stroke="#c8553d"/><line x1="18" x2="90" stroke="#c8553d"/><path d="M0 -7 L7 0 L0 7 L-7 0 Z" fill="#d49a3a"/></g>
+<line x1="60" y1="286" x2="1140" y2="286" stroke="#2f2b26" stroke-width=".8"/><line x1="60" y1="292" x2="1140" y2="292" stroke="#2f2b26" stroke-width="2"/>
+<text x="600" y="316" text-anchor="middle" fill="#8a7f70" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="3">GAWI01 · CREATE · TEST · LEARN · REPEAT</text>
+</svg>

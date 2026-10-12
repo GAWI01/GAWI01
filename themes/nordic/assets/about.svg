@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="290" viewBox="0 0 560 290" role="img" aria-label="About — cybersecurity junior, AI systems, software, Norway">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b4252"/><stop offset="1" stop-color="#3b4252"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#88c0d0"/><stop offset=".5" stop-color="#a3be8c"/><stop offset="1" stop-color="#b48ead"/></linearGradient><clipPath id="c"><rect width="560" height="290" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)">
+<rect width="560" height="290" fill="url(#bg)"/>
+<rect width="560" height="4" fill="url(#edge)"/>
+<text x="28" y="44" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2">PROFILE</text>
+<circle cx="463" cy="40" r="5" fill="#a3be8c"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+<text x="532" y="45" text-anchor="end" fill="#a3be8c" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">ONLINE</text>
+<text x="28" y="88" fill="#eceff4" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="28" font-weight="800" letter-spacing="1">GABRIEL WITZØE</text>
+<g transform="translate(28 108)"><rect width="32" height="32" rx="8" fill="#88c0d0" fill-opacity=".1" stroke="#88c0d0" stroke-opacity=".4"/><g transform="translate(16 16)"><path d="M0 -11 L10 -7 V1 C10 7 5 11 0 13 C-5 11 -10 7 -10 1 V-7 Z" fill="none" stroke="#88c0d0" stroke-width="2.2"/><path d="M-4 1 L-1 4 L5 -3" fill="none" stroke="#88c0d0" stroke-width="2.2" stroke-linecap="round"/></g></g>
+<text x="74" y="130" fill="#eceff4" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Cybersecurity junior</text>
+<text x="532" y="130" text-anchor="end" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">focus</text>
+<line x1="74" y1="144" x2="532" y2="144" stroke="#434c5e"/>
+<g transform="translate(28 148)"><rect width="32" height="32" rx="8" fill="#a3be8c" fill-opacity=".1" stroke="#a3be8c" stroke-opacity=".4"/><g transform="translate(16 16)"><rect x="-8" y="-8" width="16" height="16" rx="3" fill="none" stroke="#a3be8c" stroke-width="2.2"/><rect x="-3" y="-3" width="6" height="6" fill="#a3be8c"/><path d="M-4 -12v4M4 -12v4M-4 8v4M4 8v4M-12 -4h4M-12 4h4M8 -4h4M8 4h4" stroke="#a3be8c" stroke-width="2"/></g></g>
+<text x="74" y="170" fill="#eceff4" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">AI systems</text>
+<text x="532" y="170" text-anchor="end" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">building</text>
+<line x1="74" y1="184" x2="532" y2="184" stroke="#434c5e"/>
+<g transform="translate(28 188)"><rect width="32" height="32" rx="8" fill="#b48ead" fill-opacity=".1" stroke="#b48ead" stroke-opacity=".4"/><g transform="translate(16 16)"><path d="M-5 -8 L-12 0 L-5 8 M5 -8 L12 0 L5 8" fill="none" stroke="#b48ead" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g></g>
+<text x="74" y="210" fill="#eceff4" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Software</text>
+<text x="532" y="210" text-anchor="end" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">shipping</text>
+<line x1="74" y1="224" x2="532" y2="224" stroke="#434c5e"/>
+<g transform="translate(28 228)"><rect width="32" height="32" rx="8" fill="#a3be8c" fill-opacity=".1" stroke="#a3be8c" stroke-opacity=".4"/><g transform="translate(16 16)"><path d="M0 12 C-7 4 -9 0 -9 -3 A9 9 0 0 1 9 -3 C9 0 7 4 0 12 Z" fill="none" stroke="#a3be8c" stroke-width="2.2"/><circle cy="-3" r="3" fill="#a3be8c"/></g></g>
+<text x="74" y="250" fill="#eceff4" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Norway</text>
+<text x="532" y="250" text-anchor="end" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13">location</text>
+</g>
+<rect x="0.5" y="0.5" width="559" height="289" rx="14" fill="none" stroke="#4c566a" stroke-width="1"/>
+</svg>
