@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-label="Create, test, learn, repeat">
-<defs>
-  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00f5ff" stop-opacity="0"/><stop offset=".2" stop-color="#00f5ff"/><stop offset=".5" stop-color="#ff2bd6"/><stop offset=".8" stop-color="#ffd166"/><stop offset="1" stop-color="#ffd166" stop-opacity="0"/></linearGradient>
-</defs>
-<rect y="20" width="1200" height="2" fill="url(#neon)" opacity=".6"/>
-<text x="600" y="72" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="24" font-weight="800" letter-spacing="4">
-  <tspan fill="#00f5ff">CREATE</tspan><tspan fill="#5b5675"> // </tspan><tspan fill="#ff2bd6">TEST</tspan><tspan fill="#5b5675"> // </tspan><tspan fill="#ffd166">LEARN</tspan><tspan fill="#5b5675"> // </tspan><tspan fill="#00f5ff">REPEAT</tspan>
-</text>
-</svg>
