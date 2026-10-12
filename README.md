@@ -6,26 +6,8 @@
     <th width="50%" align="left">Stack</th>
   </tr>
   <tr>
-    <td valign="top">
-      🔐 &nbsp;Cybersecurity junior<br>
-      🤖 &nbsp;AI systems<br>
-      🛠️ &nbsp;Software — shipping real products<br>
-      📍 &nbsp;Norway<br><br>
-      <a href="https://www.linkedin.com/in/gabriel-witz%C3%B8e-51384a275"><img src="https://img.shields.io/badge/LinkedIn-0a0c18?style=flat-square&logo=linkedin&logoColor=00f5ff" alt="LinkedIn"></a>
-      <a href="https://github.com/GAWI01"><img src="https://img.shields.io/badge/GitHub-0a0c18?style=flat-square&logo=github&logoColor=ff2bd6" alt="GitHub"></a>
-    </td>
-    <td valign="top">
-      <b>Core</b><br>
-      <img src="https://skillicons.dev/icons?i=python,ts,nextjs,fastapi,supabase&theme=dark" height="36" alt="Python, TypeScript, Next.js, FastAPI, Supabase"><br>
-      <img src="https://skillicons.dev/icons?i=postgres,git,docker,linux&theme=dark" height="36" alt="SQL, Git, Docker, Linux"><br><br>
-      <b>Security</b><br>
-      <img src="https://img.shields.io/badge/Burp_Suite-0a0c18?style=flat-square&logo=burpsuite&logoColor=ff6633" alt="Burp Suite">
-      <img src="https://img.shields.io/badge/Nmap-0a0c18?style=flat-square" alt="Nmap">
-      <img src="https://img.shields.io/badge/Wireshark-0a0c18?style=flat-square&logo=wireshark&logoColor=1679a7" alt="Wireshark"><br>
-      <img src="https://img.shields.io/badge/Kali_Linux-0a0c18?style=flat-square&logo=kalilinux&logoColor=557c94" alt="Kali Linux">
-      <img src="https://img.shields.io/badge/Splunk-0a0c18?style=flat-square&logo=splunk&logoColor=65a637" alt="Splunk">
-      <img src="https://img.shields.io/badge/ELK_Stack-0a0c18?style=flat-square&logo=elasticstack&logoColor=00bfb3" alt="ELK Stack">
-    </td>
+    <td><a href="https://www.linkedin.com/in/gabriel-witz%C3%B8e-51384a275"><img src="./assets/card-about.svg" width="100%" alt="About — cybersecurity junior, AI systems, software, Norway"></a></td>
+    <td><img src="./assets/card-stack.svg" width="100%" alt="Stack — Python, TypeScript, Next.js, FastAPI, Supabase, SQL, Git, Docker, Linux, Burp Suite, Nmap, Wireshark, Kali Linux, Splunk, ELK"></td>
   </tr>
 </table>
 
