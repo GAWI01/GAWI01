@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-label="Classified — private projects and experiments in active development">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0a0c18"/><stop offset="1" stop-color="#1c0b22"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff2bd6"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+  <pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="12" fill="#ff2bd6" opacity=".05"/></pattern>
+  <clipPath id="c"><rect width="560" height="220" rx="16"/></clipPath>
+</defs>
+<g clip-path="url(#c)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+  <rect width="560" height="220" fill="url(#bg)"/>
+  <rect width="560" height="220" fill="url(#hatch)"/>
+  <rect width="560" height="4" fill="url(#edge)"/>
+
+  <text x="28" y="44" fill="#7d7a9c" font-size="13" letter-spacing="2">PRIVATE REPOS</text>
+  <text x="28" y="88" fill="#ff4fd8" font-size="38" font-weight="900">[REDACTED]</text>
+  <g>
+    <rect x="28" y="106" width="300" height="18" rx="3" fill="#2a1430"/>
+    <rect x="28" y="106" width="0" height="18" rx="3" fill="#ff2bd6" opacity=".55">
+      <animate attributeName="width" values="0;300;300;0" keyTimes="0;.4;.8;1" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="28" y="132" width="220" height="18" rx="3" fill="#2a1430"/>
+  </g>
+  <text x="28" y="184" fill="#e8e6f2" font-size="15">experiments in active development</text>
+  <text x="532" y="45" text-anchor="end" fill="#ffd166" font-size="13" font-weight="700" letter-spacing="1.5">CLASSIFIED</text>
+  <circle cx="414" cy="40" r="5" fill="#ffd166"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+  <g transform="translate(470 120)" fill="none" stroke="#ff2bd6" stroke-width="3" opacity=".6">
+    <rect x="-22" y="-4" width="44" height="34" rx="6"/>
+    <path d="M-12 -4v-10a12 12 0 0 1 24 0v10"/>
+    <circle cx="0" cy="12" r="4" fill="#ff2bd6"/>
+  </g>
+</g>
+<rect x=".5" y=".5" width="559" height="219" rx="16" fill="none" stroke="#3a1f48"/>
+</svg>
