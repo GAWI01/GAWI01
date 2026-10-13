@@ -88,17 +88,16 @@ IW = W - 2 * M  # inner width
 
 
 def about():
-    rows = [("shield", C["frost"], "Cybersecurity junior", "focus"),
-            ("chip", C["green"], "AI systems", "building"),
-            ("code", C["purple"], "Software", "shipping"),
-            ("pin", C["yellow"], "Norway", "location")]
+    rows = [("shield", C["frost"], "Cybersecurity junior"),
+            ("chip", C["green"], "AI systems"),
+            ("code", C["purple"], "Software"),
+            ("pin", C["yellow"], "Norway")]
     b = f'<text x="24" y="52" fill="{C["text"]}" font-size="27" font-weight="800" letter-spacing="1">GABRIEL WITZØE</text>'
-    for i, (ic, c, txt, sub) in enumerate(rows):
+    for i, (ic, c, txt) in enumerate(rows):
         y = 104 + i * 44
         b += (f'<g transform="translate(24 {y - 23})"><rect width="34" height="34" rx="9" fill="{c}" fill-opacity=".12" '
               f'stroke="{c}" stroke-opacity=".45"/><g transform="translate(17 17)">{ICONS[ic](c)}</g></g>'
-              f'<text x="74" y="{y}" fill="{C["text"]}" font-size="18" font-weight="700">{txt}</text>'
-              f'<text x="{IW - 24}" y="{y}" text-anchor="end" fill="{C["muted"]}" font-size="14">{sub}</text>')
+              f'<text x="74" y="{y}" fill="{C["text"]}" font-size="18" font-weight="700">{txt}</text>')
         if i < 3:
             b += f'<line x1="74" y1="{y + 16}" x2="{IW - 24}" y2="{y + 16}" stroke="{C["line"]}"/>'
     return card(W, H, "About", b, ("ONLINE", C["green"]), "About — cybersecurity junior, AI systems, software, Norway")
@@ -119,17 +118,17 @@ def stack():
 PH = 270
 
 
-def fpl():
-    pts = [(330, 170), (365, 148), (400, 156), (435, 124), (470, 132), (505, 98), (540, 106), (560, 72)]
+def ffai():
+    pts = [(410, 150), (432, 132), (454, 140), (476, 112), (498, 120), (520, 92), (542, 100), (560, 70)]
     poly = " ".join(f"{x},{y}" for x, y in pts)
     b = (f'<polyline points="{poly}" fill="none" stroke="{C["frost"]}" stroke-width="2.5" stroke-linejoin="round" opacity=".5" '
-         f'stroke-dasharray="340" stroke-dashoffset="340"><animate attributeName="stroke-dashoffset" from="340" to="0" dur="2s" begin=".3s" fill="freeze"/></polyline>'
-         f'<circle cx="560" cy="72" r="4" fill="{C["green"]}" opacity="0"><set attributeName="opacity" to="1" begin="2.3s"/></circle>'
-         f'<text x="24" y="60" fill="{C["text"]}" font-size="38" font-weight="800">FPL-AI</text>'
-         f'<text x="24" y="96" fill="{C["muted"]}" font-size="17">Fantasy Premier League prediction</text>'
-         f'<text x="24" y="120" fill="{C["muted"]}" font-size="17">+ squad optimization engine.</text>')
-    p, _ = pills(["Python", "FastAPI", "AI"], 24, 146, IW - 24, C["line"], C["frost"], 13)
-    return card(W, PH, "Public", b + p, ("ACTIVE", C["green"]), "FPL-AI — Fantasy Premier League prediction and optimization")
+         f'stroke-dasharray="260" stroke-dashoffset="260"><animate attributeName="stroke-dashoffset" from="260" to="0" dur="2s" begin=".3s" fill="freeze"/></polyline>'
+         f'<circle cx="560" cy="70" r="4" fill="{C["green"]}" opacity="0"><set attributeName="opacity" to="1" begin="2.3s"/></circle>'
+         f'<text x="24" y="60" fill="{C["text"]}" font-size="32" font-weight="800">Fantasy Football AI</text>'
+         f'<text x="24" y="96" fill="{C["muted"]}" font-size="17">Gameweek intelligence for</text>'
+         f'<text x="24" y="120" fill="{C["muted"]}" font-size="17">Fantasy Premier League.</text>')
+    p, _ = pills(["Python", "FastAPI", "Next.js", "AI"], 24, 146, IW - 24, C["line"], C["frost"], 13)
+    return card(W, PH, "Public", b + p, ("ACTIVE", C["green"]), "Fantasy Football AI — gameweek intelligence for Fantasy Premier League")
 
 
 def private():
@@ -146,7 +145,7 @@ def private():
 
 
 def static(out):
-    for name, svg in dict(about=about(), stack=stack(), fpl=fpl(), private=private()).items():
+    for name, svg in dict(about=about(), stack=stack(), ffai=ffai(), private=private()).items():
         open(os.path.join(out, f"{name}.svg"), "w").write(svg)
 
 
