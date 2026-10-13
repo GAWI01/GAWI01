@@ -1,5 +1,5 @@
 <p><img src="./assets/header.svg" width="100%" alt="Gabriel Witzøe — Cybersecurity, AI and Software — Norway"
-><a href="https://www.linkedin.com/in/gabriel-witz%C3%B8e-51384a275"><img src="./assets/about.svg" width="50%" alt="About — cybersecurity junior, AI systems, software, Norway"
+><a href="https://www.linkedin.com/in/gabriel-witz%C3%B8e-51384a275"><img src="./assets/profile.svg" width="50%" alt="About — cybersecurity junior, AI systems, software, Norway"
 ></a><img src="./assets/stack.svg" width="50%" alt="Stack — Python, TypeScript, Next.js, FastAPI, Supabase, SQL, Git, Docker, Linux, Burp Suite, Nmap, Wireshark, Kali Linux, Splunk, ELK"
 ><a href="https://github.com/GAWI01/fantasy-football-ai"><img src="./assets/ffai.svg" width="50%" alt="Fantasy Football AI — gameweek intelligence for Fantasy Premier League"
 ></a><img src="./assets/private.svg" width="50%" alt="Private projects in active development"

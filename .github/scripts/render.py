@@ -145,7 +145,7 @@ def private():
 
 
 def static(out):
-    for name, svg in dict(about=about(), stack=stack(), ffai=ffai(), private=private()).items():
+    for name, svg in dict(profile=about(), stack=stack(), ffai=ffai(), private=private()).items():
         open(os.path.join(out, f"{name}.svg"), "w").write(svg)
 
 
