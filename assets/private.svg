@@ -1,16 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="560" height="220" viewBox="0 0 560 220" role="img" aria-label="Private projects in active development">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#3b4252"/><stop offset="1" stop-color="#3b4252"/></linearGradient><linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#88c0d0"/><stop offset=".5" stop-color="#a3be8c"/><stop offset="1" stop-color="#b48ead"/></linearGradient><clipPath id="c"><rect width="560" height="220" rx="14"/></clipPath></defs>
-<g clip-path="url(#c)">
-<rect width="560" height="220" fill="url(#bg)"/>
-<rect width="560" height="4" fill="url(#edge)"/>
-<text x="28" y="44" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" letter-spacing="2">PRIVATE REPOS</text>
-<circle cx="424" cy="40" r="5" fill="#b48ead"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
-<text x="532" y="45" text-anchor="end" fill="#b48ead" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">CLASSIFIED</text>
-<text x="28" y="90" fill="#eceff4" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="36" font-weight="800">[REDACTED]</text>
-<rect x="28" y="108" width="300" height="18" rx="3" fill="#434c5e"/><rect x="28" y="108" width="0" height="18" rx="3" fill="#88c0d0" opacity=".7"><animate attributeName="width" values="0;300;300;0" keyTimes="0;.4;.8;1" dur="5s" repeatCount="indefinite"/></rect>
-<rect x="28" y="134" width="220" height="18" rx="3" fill="#434c5e"/>
-<text x="28" y="186" fill="#a7b1c2" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif" font-size="16">Experiments in active development.</text>
-<g transform="translate(470 120)" fill="none" stroke="#88c0d0" stroke-width="3"><rect x="-22" y="-4" width="44" height="34" rx="6"/><path d="M-12 -4v-10a12 12 0 0 1 24 0v10"/><circle cx="0" cy="12" r="4" fill="#88c0d0"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="270" viewBox="0 0 600 270" role="img" aria-label="Private projects in active development">
+<defs><clipPath id="c"><rect x="8" y="8" width="584" height="254" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="8" y="8" width="584" height="254" fill="#2e3440"/>
+<rect x="8" y="8" width="584" height="58" fill="#3b4252"/>
+<line x1="8" y1="66" x2="592" y2="66" stroke="#4c566a"/>
+<text x="32" y="45" fill="#eceff4" font-size="21" font-weight="700">Private</text>
+<circle cx="464" cy="38" r="5" fill="#b48ead"><animate attributeName="opacity" values="1;.3;1" dur="1.6s" repeatCount="indefinite"/></circle><text x="568" y="43" text-anchor="end" fill="#b48ead" font-size="13" font-weight="700" letter-spacing="1.2">CLASSIFIED</text>
+<g transform="translate(8 66)"><text x="24" y="60" fill="#eceff4" font-size="38" font-weight="800">[REDACTED]</text><rect x="24" y="82" width="300" height="18" rx="3" fill="#434c5e"/><rect x="24" y="82" width="0" height="18" rx="3" fill="#88c0d0" opacity=".75"><animate attributeName="width" values="0;300;300;0" keyTimes="0;.4;.8;1" dur="5s" repeatCount="indefinite"/></rect><rect x="24" y="108" width="220" height="18" rx="3" fill="#434c5e"/><text x="24" y="168" fill="#a7b1c2" font-size="17">Experiments in active development.</text><g transform="translate(514 100)" fill="none" stroke="#88c0d0" stroke-width="3"><rect x="-24" y="-4" width="48" height="36" rx="7"/><path d="M-13 -4v-11a13 13 0 0 1 26 0v11"/><circle cx="0" cy="13" r="4" fill="#88c0d0"/></g></g>
 </g>
-<rect x="0.5" y="0.5" width="559" height="219" rx="14" fill="none" stroke="#4c566a" stroke-width="1"/>
+<rect x="8.5" y="8.5" width="583" height="253" rx="14" fill="none" stroke="#4c566a"/>
 </svg>

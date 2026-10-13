@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile cards
 
 on:
   schedule:
@@ -15,6 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Render stats cards
+        run: python3 .github/scripts/render.py stats dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
