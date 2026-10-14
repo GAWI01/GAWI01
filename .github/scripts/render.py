@@ -131,6 +131,17 @@ def ffai():
     return card(W, PH, "Public", b + p, ("ACTIVE", C["green"]), "Fantasy Football AI — gameweek intelligence for Fantasy Premier League")
 
 
+def sigdoctor():
+    pulse = "400,110 440,110 452,110 464,80 480,140 494,96 504,110 560,110"
+    b = (f'<polyline points="{pulse}" fill="none" stroke="{C["green"]}" stroke-width="2.5" stroke-linejoin="round" opacity=".6" '
+         f'stroke-dasharray="300" stroke-dashoffset="300"><animate attributeName="stroke-dashoffset" values="300;0;0" keyTimes="0;.5;1" dur="3s" repeatCount="indefinite"/></polyline>'
+         f'<text x="24" y="60" fill="{C["text"]}" font-size="32" font-weight="800">SigDoctor</text>'
+         f'<text x="24" y="96" fill="{C["muted"]}" font-size="17">Your Sigma rule is valid.</text>'
+         f'<text x="24" y="120" fill="{C["muted"]}" font-size="17">But is your telemetry?</text>')
+    p, _ = pills(["Python", "Sigma", "Windows", "CLI"], 24, 146, IW - 24, C["line"], C["frost"], 13)
+    return card(W, PH, "Public", b + p, ("EARLY STAGE", C["yellow"]), "SigDoctor — checks telemetry readiness for Sigma detection rules")
+
+
 def private():
     b = (f'<text x="24" y="60" fill="{C["text"]}" font-size="38" font-weight="800">[REDACTED]</text>'
          f'<rect x="24" y="82" width="300" height="18" rx="3" fill="{C["line"]}"/>'
@@ -145,7 +156,7 @@ def private():
 
 
 def static(out):
-    for name, svg in dict(profile=about(), stack=stack(), ffai=ffai(), private=private()).items():
+    for name, svg in dict(profile=about(), stack=stack(), ffai=ffai(), sigdoctor=sigdoctor(), private=private()).items():
         open(os.path.join(out, f"{name}.svg"), "w").write(svg)
 
 
