@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="GitHub contribution streak">
+<defs><clipPath id="c"><rect x="8" y="8" width="1184" height="224" rx="14"/></clipPath></defs>
+<g clip-path="url(#c)" font-family="Inter,-apple-system,'Segoe UI',Helvetica,Arial,sans-serif">
+<rect x="8" y="8" width="1184" height="224" fill="#2e3440"/>
+<rect x="8" y="8" width="1184" height="58" fill="#3b4252"/>
+<line x1="8" y1="66" x2="1192" y2="66" stroke="#4c566a"/>
+<text x="32" y="45" fill="#eceff4" font-size="21" font-weight="700">Streak</text>
+<g transform="translate(8 66)"><text x="197" y="76" text-anchor="middle" fill="#88c0d0" font-size="48" font-weight="800">314</text><text x="197" y="110" text-anchor="middle" fill="#eceff4" font-size="17" font-weight="600">Total contributions</text><text x="197" y="136" text-anchor="middle" fill="#a7b1c2" font-size="14">Oct 12 – now</text><text x="592" y="76" text-anchor="middle" fill="#a3be8c" font-size="48" font-weight="800">0</text><text x="592" y="110" text-anchor="middle" fill="#eceff4" font-size="17" font-weight="600">Current streak</text><text x="592" y="136" text-anchor="middle" fill="#a7b1c2" font-size="14">start one today</text><line x1="395" y1="28" x2="395" y2="146" stroke="#434c5e"/><text x="987" y="76" text-anchor="middle" fill="#b48ead" font-size="48" font-weight="800">5</text><text x="987" y="110" text-anchor="middle" fill="#eceff4" font-size="17" font-weight="600">Longest streak</text><text x="987" y="136" text-anchor="middle" fill="#a7b1c2" font-size="14">Oct 11 – Oct 15</text><line x1="789" y1="28" x2="789" y2="146" stroke="#434c5e"/></g>
+</g>
+<rect x="8.5" y="8.5" width="1183" height="223" rx="14" fill="none" stroke="#4c566a"/>
+</svg>
