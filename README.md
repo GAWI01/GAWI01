@@ -3,6 +3,8 @@
 ></a><img src="./assets/stack.svg" width="50%" alt="Stack — Python, TypeScript, Next.js, FastAPI, Supabase, SQL, Git, Docker, Linux, Burp Suite, Nmap, Wireshark, Kali Linux, Splunk, ELK"
 ><a href="https://github.com/GAWI01/fantasy-football-ai"><img src="./assets/ffai.svg" width="50%" alt="Fantasy Football AI — gameweek intelligence for Fantasy Premier League"
 ></a><a href="https://github.com/GAWI01/sigdoctor"><img src="./assets/sigdoctor.svg" width="50%" alt="SigDoctor — checks telemetry readiness for Sigma detection rules"
+></a><a href="https://github.com/GAWI01/valgomat"><img src="./assets/valgomat.svg" width="50%" alt="Valgomat 2027 — open, source-based Norwegian voting advice app"
+></a><a href="https://gawi.no"><img src="./assets/portfolio.svg" width="50%" alt="gawi.no — portfolio built as a 3D arcade"
 ></a><img src="https://raw.githubusercontent.com/GAWI01/GAWI01/output/stats.svg" width="50%" alt="GitHub stats"
 ><img src="https://raw.githubusercontent.com/GAWI01/GAWI01/output/langs.svg" width="50%" alt="Top languages"
 ><img src="https://raw.githubusercontent.com/GAWI01/GAWI01/output/streak.svg" width="100%" alt="GitHub streak"

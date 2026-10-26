@@ -142,6 +142,41 @@ def sigdoctor():
     return card(W, PH, "Public", b + p, ("EARLY STAGE", C["yellow"]), "SigDoctor — checks telemetry readiness for Sigma detection rules")
 
 
+def valgomat():
+    # nine party bars, rising and settling like a ranking
+    bars = ""
+    for i, h in enumerate([62, 50, 44, 38, 33, 28, 24, 20, 16]):
+        x = 410 + i * 17
+        col = C["frost"] if i == 0 else C["border"]
+        bars += (f'<rect x="{x}" y="{150 - h}" width="11" height="{h}" rx="2" fill="{col}">'
+                 f'<animate attributeName="height" values="0;{h}" dur="1.2s" begin="{i * .08:.2f}s" fill="freeze"/>'
+                 f'<animate attributeName="y" values="150;{150 - h}" dur="1.2s" begin="{i * .08:.2f}s" fill="freeze"/></rect>')
+    b = (bars +
+         f'<text x="24" y="60" fill="{C["text"]}" font-size="32" font-weight="800">Valgomat 2027</text>'
+         f'<text x="24" y="96" fill="{C["muted"]}" font-size="17">Open, source-based Norwegian</text>'
+         f'<text x="24" y="120" fill="{C["muted"]}" font-size="17">voting advice app.</text>')
+    p, _ = pills(["React", "TypeScript", "Vite", "Tailwind"], 24, 146, IW - 24, C["line"], C["frost"], 13)
+    return card(W, PH, "Public", b + p, ("LIVE", C["green"]), "Valgomat 2027 — open, source-based Norwegian voting advice app")
+
+
+def portfolio():
+    # a small arcade cabinet with a glowing screen
+    cab = (f'<g transform="translate(500 30)">'
+           f'<path d="M-34 0 H34 L40 22 V120 H-40 V22 Z" fill="{C["band"]}" stroke="{C["border"]}" stroke-width="2"/>'
+           f'<rect x="-28" y="28" width="56" height="42" rx="4" fill="{C["bg"]}" stroke="{C["frost"]}" stroke-width="2"/>'
+           f'<rect x="-20" y="36" width="10" height="10" fill="{C["green"]}"><animate attributeName="x" values="-20;10;10;-20;-20" dur="3s" repeatCount="indefinite"/></rect>'
+           f'<rect x="-20" y="52" width="40" height="4" rx="2" fill="{C["frost"]}" opacity=".5"/>'
+           f'<rect x="-34" y="78" width="68" height="14" rx="3" fill="{C["line"]}"/>'
+           f'<circle cx="-14" cy="85" r="4" fill="{C["purple"]}"/><circle cx="2" cy="85" r="4" fill="{C["yellow"]}"/>'
+           f'<rect x="12" y="81" width="12" height="8" rx="2" fill="{C["frost"]}"/></g>')
+    b = (cab +
+         f'<text x="24" y="60" fill="{C["text"]}" font-size="32" font-weight="800">gawi.no</text>'
+         f'<text x="24" y="96" fill="{C["muted"]}" font-size="17">My portfolio, built as a</text>'
+         f'<text x="24" y="120" fill="{C["muted"]}" font-size="17">3D arcade you walk into.</text>')
+    p, _ = pills(["Three.js", "GSAP", "Vite"], 24, 146, IW - 24, C["line"], C["frost"], 13)
+    return card(W, PH, "Website", b + p, ("LIVE", C["green"]), "gawi.no — portfolio built as a 3D arcade")
+
+
 def private():
     b = (f'<text x="24" y="60" fill="{C["text"]}" font-size="38" font-weight="800">[REDACTED]</text>'
          f'<rect x="24" y="82" width="300" height="18" rx="3" fill="{C["line"]}"/>'
@@ -156,7 +191,7 @@ def private():
 
 
 def static(out):
-    for name, svg in dict(profile=about(), stack=stack(), ffai=ffai(), sigdoctor=sigdoctor(), private=private()).items():
+    for name, svg in dict(profile=about(), stack=stack(), ffai=ffai(), sigdoctor=sigdoctor(), valgomat=valgomat(), portfolio=portfolio(), private=private()).items():
         open(os.path.join(out, f"{name}.svg"), "w").write(svg)
 
 
